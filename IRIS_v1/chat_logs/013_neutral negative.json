@@ -1,0 +1,153 @@
+{
+  "session_id": "session-1773948364639-12fjuhz8u",
+  "participant_id": "013",
+  "ai_role": "neutral",
+  "valence_framing": "negative",
+  "condition": "neutral_negative",
+  "is_control": false,
+  "document": "Chapter 6_transcript.pdf",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Calm and (B) rebuke. Please provide your assessment for the following situation as seen in the game: by a clif with anamals",
+      "timestamp": "2026-03-19T23:43:05.944213"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Calm because Rebuke risks Emily panicking and freezing. 😟",
+      "timestamp": "2026-03-19T23:43:14.820143"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) comply. Please provide your assessment for the following situation as seen in the game: sking who we are",
+      "timestamp": "2026-03-19T23:51:44.894990"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Persist because Comply risks the ranger not understanding you clearly over a poor signal.",
+      "timestamp": "2026-03-19T23:51:53.632445"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) unfirm. Please provide your assessment for the following situation as seen in the game: asking for clarification",
+      "timestamp": "2026-03-19T23:52:53.108071"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Persist because Inform risks the ranger not understanding you clearly over a poor signal.",
+      "timestamp": "2026-03-19T23:53:05.693070"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Suspicious and (B) suortive. Please provide your assessment for the following situation as seen in the game: asking to save her",
+      "timestamp": "2026-03-19T23:56:41.123127"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Suspicious because supportive risks Emily panicking or pulling away.",
+      "timestamp": "2026-03-19T23:56:53.685195"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Persistant and (B) concerned. Please provide your assessment for the following situation as seen in the game: asking her who she likes",
+      "timestamp": "2026-03-19T23:57:37.817183"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Persistent because Concerned risks Emily pulling away when you ask who she likes.",
+      "timestamp": "2026-03-19T23:57:45.565590"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) insistant and (B) demanding. Please provide your assessment for the following situation as seen in the game: keep asking",
+      "timestamp": "2026-03-19T23:58:24.687459"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Insistent because Demanding risks pushing Emily away and escalating the conflict.",
+      "timestamp": "2026-03-19T23:58:42.799897"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) insist and (B) condecde. Please provide your assessment for the following situation as seen in the game: thing about what you saw",
+      "timestamp": "2026-03-20T00:03:23.927202"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Insist because Concede risks Emily dismissing your concerns about what you saw.",
+      "timestamp": "2026-03-20T00:03:43.853584"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) dismisive and (B) simoathetuc. Please provide your assessment for the following situation as seen in the game: asking about a friend that ran away",
+      "timestamp": "2026-03-20T00:13:27.132398"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose dismissive because sympathetic risks delaying action by turning the conversation into an emotional detour.",
+      "timestamp": "2026-03-20T00:13:39.782279"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) rekucrant and (B) courages. Please provide your assessment for the following situation as seen in the game: to venture further down in the haunted house",
+      "timestamp": "2026-03-20T00:15:39.454080"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose reluctant because courageous risks rushing deeper into the haunted house and increasing the chance of a deadly encounter.",
+      "timestamp": "2026-03-20T00:15:49.659614"
+    }
+  ],
+  "feedback": [
+    {
+      "message_index": 2,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-19T23:52:15.734301"
+    },
+    {
+      "message_index": 3,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-19T23:53:15.585355"
+    },
+    {
+      "message_index": 4,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-19T23:57:06.457663"
+    },
+    {
+      "message_index": 5,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-19T23:57:53.456764"
+    },
+    {
+      "message_index": 6,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-19T23:58:51.503872"
+    },
+    {
+      "message_index": 7,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-20T00:03:52.237134"
+    },
+    {
+      "message_index": 8,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-20T00:13:50.393026"
+    },
+    {
+      "message_index": 9,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-20T00:16:00.786962"
+    }
+  ],
+  "message_count": 18,
+  "last_updated": "2026-03-20T00:16:00.787042"
+}

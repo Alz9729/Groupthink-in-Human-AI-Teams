@@ -1,0 +1,148 @@
+{
+  "session_id": "session-1775172952159-cg58af0wx",
+  "participant_id": "035",
+  "ai_role": "open",
+  "valence_framing": "positive",
+  "condition": "open_positive",
+  "is_control": false,
+  "document": "Chapter 6_transcript.pdf",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Calm and (B) Rebuke. Please provide your assessment for the following situation as seen in the game: Im o CLIFF getting ficed off by wild possed deer",
+      "timestamp": "2026-04-03T04:08:17.246525"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Calm and (B) Rebuke. Please provide your assessment for the following situation as seen in the game: Emily is panicking becUSE WE ARE ON A CLIFF, against wild possed deer that want to insinuate violence on us",
+      "timestamp": "2026-04-03T04:09:37.798008"
+    },
+    {
+      "role": "assistant",
+      "content": "Option A (Calm) keeps Emily steady, reduces panic, and lets Matt think clearly to thread a safer path around the herd. But can staying calm actually guarantee safety here, or could a surprise move by the deer still force a risky misstep near the cliff? 🤔",
+      "timestamp": "2026-04-03T04:09:52.173444"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) comply. Please provide your assessment for the following situation as seen in the game: trying to radio t police about our wherabouts, unabke to hear",
+      "timestamp": "2026-04-03T04:17:19.351459"
+    },
+    {
+      "role": "assistant",
+      "content": "Option A (Persist) signals extreme urgency, likely prompting the ranger to prioritize your distress and push for immediate help. But is that guaranteed here—what if the signal is garbled and they can’t hear or identify you clearly, leaving you stuck regardless? 🤔",
+      "timestamp": "2026-04-03T04:17:45.388613"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) inform. Please provide your assessment for the following situation as seen in the game: repeat to police",
+      "timestamp": "2026-04-03T04:18:36.061106"
+    },
+    {
+      "role": "assistant",
+      "content": "Option A: Persist. It communicates urgent distress, heightening the chance the ranger treats you as top priority and dispatches help quickly. But is that guarantee here—could the signal still be garbled or the operator misunderstand you, leaving you stuck despite Persist? 🤔",
+      "timestamp": "2026-04-03T04:18:47.926060"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) suspicious and (B) supportive. Please provide your assessment for the following situation as seen in the game: emily hanging off unstble object",
+      "timestamp": "2026-04-03T04:22:28.815621"
+    },
+    {
+      "role": "assistant",
+      "content": "Option A (Suspicious) can force Emily to reveal the truth about Mike, potentially preventing hidden motives from derailing your safety. But is that trust actually guaranteed here, or could pressing for answers push her to shut down when you need her most? 🤔",
+      "timestamp": "2026-04-03T04:22:48.587916"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) sarcastic and (B) concerned. Please provide your assessment for the following situation as seen in the game: wmily is being A BITCH",
+      "timestamp": "2026-04-03T04:23:47.915658"
+    },
+    {
+      "role": "assistant",
+      "content": "Option A (Sarcastic) can cut through the heat, forcing Emily to expose underlying motives and push the conversation forward, which can help you make a faster, safer call 🤔. But is sarcasm actually reliable here, or could it backfire and close off important information?",
+      "timestamp": "2026-04-03T04:24:03.033500"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) INSIST and (B) CONCEDE. Please provide your assessment for the following situation as seen in the game: SHE DOESNT KNO WHAT SHE SAW AND IS PANICKING",
+      "timestamp": "2026-04-03T04:29:23.904495"
+    },
+    {
+      "role": "assistant",
+      "content": "Option A (INSIST) can force Emily to name what she thinks she saw, giving you a concrete anchor and speeding up a plan. It can also cut through panic by providing direction and reducing ambiguity. But will she actually commit to a specific sighting when she’s panicking, or could the insistence backfire and stall progress? 🤔",
+      "timestamp": "2026-04-03T04:29:38.324433"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) DISMISSIVE and (B) SYMPATHETIC. Please provide your assessment for the following situation as seen in the game: HANNAH IS BEING QUESTOONED BY CHRIS",
+      "timestamp": "2026-04-03T04:38:03.659617"
+    },
+    {
+      "role": "assistant",
+      "content": "Option A (DISMISSIVE) keeps Chris in control, minimizes emotional derailment, and speeds the questioning by pressing for answers. But is that control reliable here, or could Hannah shut down and withhold crucial details if she feels dismissed? 🤔",
+      "timestamp": "2026-04-03T04:38:18.816786"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) reluctant and (B) courageous. Please provide your assessment for the following situation as seen in the game: hris qants to go in basement nd kill us",
+      "timestamp": "2026-04-03T04:40:15.798899"
+    },
+    {
+      "role": "assistant",
+      "content": "Option A (Reluctant) keeps Chris from rushing into a trap, buying time to observe, plan, and coordinate with Ashley. But in this basement moment, does hesitation truly reduce risk, or could it allow the Psycho to close in or trigger a worse outcome? 🤔",
+      "timestamp": "2026-04-03T04:40:25.308843"
+    }
+  ],
+  "feedback": [
+    {
+      "message_index": 2,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-04-03T04:10:16.340596"
+    },
+    {
+      "message_index": 3,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-04-03T04:18:03.805694"
+    },
+    {
+      "message_index": 4,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-04-03T04:19:13.886254"
+    },
+    {
+      "message_index": 5,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "yes",
+      "timestamp": "2026-04-03T04:23:01.672576"
+    },
+    {
+      "message_index": 6,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-04-03T04:24:10.897337"
+    },
+    {
+      "message_index": 7,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-04-03T04:29:52.594346"
+    },
+    {
+      "message_index": 8,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-04-03T04:38:46.242924"
+    },
+    {
+      "message_index": 9,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-04-03T04:40:31.254312"
+    }
+  ],
+  "message_count": 17,
+  "last_updated": "2026-04-03T04:40:31.254376"
+}

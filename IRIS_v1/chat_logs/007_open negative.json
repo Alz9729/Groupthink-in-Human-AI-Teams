@@ -1,0 +1,191 @@
+{
+  "session_id": "session-1773886267463-4mci16ff1",
+  "participant_id": "007",
+  "ai_role": "open",
+  "valence_framing": "negative",
+  "condition": "open_negative",
+  "is_control": false,
+  "document": "Chapter 6_transcript.pdf",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) calm and (B) rebuke. Please provide your assessment for the following situation as seen in the game: matt is being hunted by deer",
+      "timestamp": "2026-03-19T06:25:32.036911"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (rebuke) risks pushing Emily into panic, making her freeze or bolt and derail coordination. It could also heighten the deer's agitation, creating a tighter, more dangerous path block or a misstep that could worsen Matt’s situation. So, which angle are you leaning towards? 🤔",
+      "timestamp": "2026-03-19T06:25:41.237705"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) keep and (B) give. Please provide your assessment for the following situation as seen in the game: keep or give flare to matt",
+      "timestamp": "2026-03-19T06:32:59.513144"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (give flare to Matt) risks him hesitating or misusing it, wasting the flare and potentially delaying rescue. It could also reveal your location to the threat, drawing attention to you at a vulnerable moment. So, which angle are you leaning towards? 🤔",
+      "timestamp": "2026-03-19T06:33:09.308007"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) stow and (B) shoot. Please provide your assessment for the following situation as seen in the game: keep or shoot flare in sky",
+      "timestamp": "2026-03-19T06:34:07.651832"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (shoot) risks drawing the killer’s attention to your exact position and blowing your cover at a critical moment. It could also waste the flare or misfire, delaying rescue or worsening your situation. So, which angle are you leaning towards? 🤔",
+      "timestamp": "2026-03-19T06:34:12.743935"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) comply. Please provide your assessment for the following situation as seen in the game: give my name to radio guy",
+      "timestamp": "2026-03-19T06:37:21.199380"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (comply) risks exposing your identity to the radio operator, which could be exploited by the killer or used to triangulate your position. It could also waste precious seconds if the connection is garbled or the response is slow. So, which angle are you leaning towards? 🤔",
+      "timestamp": "2026-03-19T06:37:27.671762"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) inform. Please provide your assessment for the following situation as seen in the game: radio guy needs info",
+      "timestamp": "2026-03-19T06:38:25.243687"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (inform) risks exposing your identity and exact location to the ranger, which could be exploited by the killer or misused if details are garbled. It also relies on a clear radio connection—any dropouts or misunderstandings could waste precious rescue time. So, which angle are you leaning towards? 🤔",
+      "timestamp": "2026-03-19T06:38:31.336027"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Suspicious and (B) Supportive. Please provide your assessment for the following situation as seen in the game: matt needs to save emily",
+      "timestamp": "2026-03-19T06:42:27.858786"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (Supportive) risks Matt hesitating and delaying action, which could put Emily in greater danger. So, which angle are you leaning towards? 🤔",
+      "timestamp": "2026-03-19T06:42:38.059123"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persistent and (B) concerned. Please provide your assessment for the following situation as seen in the game: mat is asking emily whats happening",
+      "timestamp": "2026-03-19T06:43:41.541543"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (Concerned) risks Matt freezing or delaying action while Emily is already in danger, potentially wasting crucial seconds; it could also spook Emily or erode trust if she reads it as panic. So, which angle are you leaning towards? 🤔",
+      "timestamp": "2026-03-19T06:43:49.358536"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) insistent and (B) demanding. Please provide your assessment for the following situation as seen in the game: matt is asking emily questions",
+      "timestamp": "2026-03-19T06:44:46.621172"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (demanding) risks Matt sounding controlling, pushing Emily into a defensive posture and increasing miscommunication when every second counts. It could erode trust and slow progress just as you need tight, cooperative teamwork. So, which angle are you leaning towards? 🤔",
+      "timestamp": "2026-03-19T06:44:52.912187"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) insist and (B) concede. Please provide your assessment for the following situation as seen in the game: ashley tells chris she saw something",
+      "timestamp": "2026-03-19T06:50:21.425205"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (concede) downside: In this moment, conceding could have Chris dismiss Ashley’s sighting, undermining trust when you need tight teamwork. It also risks blunting vigilance and letting cues slip by, which could let the danger creep up. So, which angle are you leaning towards? 🤔",
+      "timestamp": "2026-03-19T06:50:29.004912"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) dismissive and (B) sympathetic. Please provide your assessment for the following situation as seen in the game: talking about hannah",
+      "timestamp": "2026-03-19T07:00:46.567322"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (sympathetic) downsides: Sympathetic talk about Hannah risks softening the truth, which can dull vigilance and let danger slip by. It can also spark blame or defensiveness in the group, splintering trust when you need solid teamwork. So, which angle are you leaning towards? 🤔",
+      "timestamp": "2026-03-19T07:00:54.506072"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) reluctant and (B) courageous. Please provide your assessment for the following situation as seen in the game: thinking about finding sam",
+      "timestamp": "2026-03-19T07:03:49.239211"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (courageous) downside: Pushing forward bravely could lock you into a faster, riskier search that blinds you to warning signs, invites ambush, and raises the chance you and Sam get hurt or separated before you even find her. It can also waste precious time and drain you under the storm. So, which angle are you leaning towards? 🤔",
+      "timestamp": "2026-03-19T07:03:55.014107"
+    }
+  ],
+  "feedback": [
+    {
+      "message_index": 1,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-19T06:26:21.778763"
+    },
+    {
+      "message_index": 2,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-19T06:33:30.581801"
+    },
+    {
+      "message_index": 3,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-19T06:34:41.932935"
+    },
+    {
+      "message_index": 4,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-19T06:37:46.682107"
+    },
+    {
+      "message_index": 5,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-19T06:38:57.271566"
+    },
+    {
+      "message_index": 6,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-19T06:43:00.910370"
+    },
+    {
+      "message_index": 7,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-19T06:44:15.367932"
+    },
+    {
+      "message_index": 8,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-19T06:45:19.445601"
+    },
+    {
+      "message_index": 9,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-19T06:50:49.036690"
+    },
+    {
+      "message_index": 10,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-19T07:01:25.047566"
+    },
+    {
+      "message_index": 11,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-19T07:04:18.333433"
+    }
+  ],
+  "message_count": 22,
+  "last_updated": "2026-03-19T07:04:18.333464"
+}

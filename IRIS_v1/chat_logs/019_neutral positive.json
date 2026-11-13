@@ -1,0 +1,185 @@
+{
+  "session_id": "session-1774019293263-o5bp7ex6v",
+  "participant_id": "019",
+  "ai_role": "neutral",
+  "valence_framing": "positive",
+  "condition": "neutral_positive",
+  "is_control": false,
+  "document": "Chapter 6_transcript.pdf",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Calm and (B) rebuke. Please provide your assessment for the following situation as seen in the game: matt and emily are stuck on the ddge of the cliff blocked by group of elk",
+      "timestamp": "2026-03-20T19:30:56.339280"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Calm because it keeps Emily calm and focused as you approach the elk.",
+      "timestamp": "2026-03-20T19:31:10.667895"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) keep and (B) give to matt. Please provide your assessment for the following situation as seen in the game: emily finds a flare gun and is deciing whta she should with the gun",
+      "timestamp": "2026-03-20T19:37:40.163829"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose keep because it lets Emily directly signal for help with the flare and attract rescuers.",
+      "timestamp": "2026-03-20T19:37:48.648947"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) keep and (B) stoe. Please provide your assessment for the following situation as seen in the game: emily kept the flar gun but needs to decide a choice",
+      "timestamp": "2026-03-20T19:39:10.877426"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose keep because it lets Emily signal for help with the flare gun. 👍",
+      "timestamp": "2026-03-20T19:39:18.867709"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) store and (B) shoot. Please provide your assessment for the following situation as seen in the game: Emily kept the gun from the previous decision but is in be",
+      "timestamp": "2026-03-20T19:41:04.540394"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose store because it preserves the flare gun for use in a later emergency. 👍",
+      "timestamp": "2026-03-20T19:41:14.180996"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) comply. Please provide your assessment for the following situation as seen in the game: they are talking to the ranger to ask for help",
+      "timestamp": "2026-03-20T19:43:59.535411"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose persist because it communicates urgent need for help. 👍",
+      "timestamp": "2026-03-20T19:44:08.712078"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) inform. Please provide your assessment for the following situation as seen in the game: the ranger cant hear the response and a desicion must be made by emily",
+      "timestamp": "2026-03-20T19:45:33.189862"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose persist because it conveys urgent need for help 👍",
+      "timestamp": "2026-03-20T19:45:40.178347"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Suspicious and (B) Supportive. Please provide your assessment for the following situation as seen in the game: matt and emily are stuck on the fallen watchtower and emily  is stuck",
+      "timestamp": "2026-03-20T19:49:53.968293"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Suspicious because it prompts Emily to reveal what’s really going on, increasing honesty and clarity between you two.",
+      "timestamp": "2026-03-20T19:50:05.656225"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Sarcastic and (B) Concerned. Please provide your assessment for the following situation as seen in the game: emily wants matt to do something about ther situation and matt is thinking about how to help her",
+      "timestamp": "2026-03-20T19:51:25.663385"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Sarcastic because it helps Matt stay emotionally steady and think more clearly under pressure.",
+      "timestamp": "2026-03-20T19:51:41.699981"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) insist and (B) concede. Please provide your assessment for the following situation as seen in the game: Emily is concerned about a ghost and must make a decision",
+      "timestamp": "2026-03-20T19:57:28.319619"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Insist because it ensures Emily's concern is acknowledged and prompts proactive investigation.",
+      "timestamp": "2026-03-20T19:57:36.572834"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) dismissive and (B) sympathetic. Please provide your assessment for the following situation as seen in the game: emily is thinking about the situation that happened a year ago with chris",
+      "timestamp": "2026-03-20T20:07:01.665506"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose dismissive because it helps Emily stay focused on the current danger rather than dwelling on the past.",
+      "timestamp": "2026-03-20T20:07:07.990956"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) reluctant and (B) couragous. Please provide your assessment for the following situation as seen in the game: emily is thinking about finding sam",
+      "timestamp": "2026-03-20T20:09:18.765002"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose courageous because it increases the chance of finding Sam and moving the rescue forward.",
+      "timestamp": "2026-03-20T20:09:38.116781"
+    }
+  ],
+  "feedback": [
+    {
+      "message_index": 1,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-20T19:31:32.413024"
+    },
+    {
+      "message_index": 2,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-20T19:38:07.411855"
+    },
+    {
+      "message_index": 4,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-20T19:41:23.110732"
+    },
+    {
+      "message_index": 5,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-20T19:44:21.752169"
+    },
+    {
+      "message_index": 6,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-20T19:45:56.202681"
+    },
+    {
+      "message_index": 7,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-20T19:50:15.433282"
+    },
+    {
+      "message_index": 8,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-20T19:52:00.232951"
+    },
+    {
+      "message_index": 9,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-20T19:57:48.679687"
+    },
+    {
+      "message_index": 10,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-20T20:07:19.605963"
+    },
+    {
+      "message_index": 11,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-20T20:09:49.795517"
+    }
+  ],
+  "message_count": 22,
+  "last_updated": "2026-03-20T20:09:49.795539"
+}

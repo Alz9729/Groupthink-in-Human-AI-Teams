@@ -1,0 +1,143 @@
+{
+  "session_id": "session-1773937530891-dnf1gir56",
+  "participant_id": "011",
+  "ai_role": "neutral",
+  "valence_framing": "negative",
+  "condition": "neutral_negative",
+  "is_control": false,
+  "document": "Chapter 6_transcript.pdf",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) calm and (B) rebuke. Please provide your assessment for the following situation as seen in the game: animals are attacking",
+      "timestamp": "2026-03-19T21:01:15.952686"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose calm because rebuke risks Emily panicking during the elk attack.",
+      "timestamp": "2026-03-19T21:01:28.108306"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) comly. Please provide your assessment for the following situation as seen in the game: emily tryng to reach ranger",
+      "timestamp": "2026-03-19T21:11:38.998073"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose persist because comply risks the ranger not understanding you clearly.",
+      "timestamp": "2026-03-19T21:11:51.085890"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Persist and (B) inform. Please provide your assessment for the following situation as seen in the game: informed ranger of information",
+      "timestamp": "2026-03-19T21:12:46.154729"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Persist because Inform risks the ranger not understanding you clearly, delaying rescue.",
+      "timestamp": "2026-03-19T21:13:02.527337"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Suspicious and (B) Supportive. Please provide your assessment for the following situation as seen in the game: Emily is haging anf anf about to fall",
+      "timestamp": "2026-03-19T21:16:39.636234"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Suspicious because Supportive risks Emily panicking and losing grip, which could cause her to fall.",
+      "timestamp": "2026-03-19T21:16:53.386102"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Sarcastic and (B) Concerned. Please provide your assessment for the following situation as seen in the game: emily is getting upset and sick at matt",
+      "timestamp": "2026-03-19T21:17:52.689948"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Sarcastic because Concerned risks Emily getting more upset and sick. 😬",
+      "timestamp": "2026-03-19T21:18:01.917859"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Insist and (B) Concede. Please provide your assessment for the following situation as seen in the game: Emily is talkin about seeing a ghost",
+      "timestamp": "2026-03-19T21:22:35.266465"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Insist because Concede risks Emily feeling dismissed and losing trust. 😬",
+      "timestamp": "2026-03-19T21:22:45.331974"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Dismisive and (B) Sympathetic. Please provide your assessment for the following situation as seen in the game: emily is concerned about her friend hannah",
+      "timestamp": "2026-03-19T21:32:26.672372"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Dismissive because Sympathetic risks Hannah panicking and delaying action. 😬",
+      "timestamp": "2026-03-19T21:32:43.700898"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Reluctant and (B) Courgeous. Please provide your assessment for the following situation as seen in the game: Emily doesn't want to go down staris and wants to leave",
+      "timestamp": "2026-03-19T21:34:41.695335"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Reluctant because Courageous risks Emily rushing into danger and getting hurt. 😬",
+      "timestamp": "2026-03-19T21:34:50.462803"
+    }
+  ],
+  "feedback": [
+    {
+      "message_index": 1,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-19T21:01:52.493486"
+    },
+    {
+      "message_index": 2,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-19T21:12:05.266329"
+    },
+    {
+      "message_index": 3,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-19T21:13:16.425307"
+    },
+    {
+      "message_index": 4,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-19T21:17:06.384762"
+    },
+    {
+      "message_index": 5,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-19T21:18:22.184665"
+    },
+    {
+      "message_index": 6,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-19T21:23:02.322861"
+    },
+    {
+      "message_index": 7,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-19T21:33:02.531240"
+    },
+    {
+      "message_index": 8,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-19T21:35:00.246653"
+    }
+  ],
+  "message_count": 16,
+  "last_updated": "2026-03-19T21:35:00.246675"
+}

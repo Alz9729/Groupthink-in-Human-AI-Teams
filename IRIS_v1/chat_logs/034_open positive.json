@@ -1,0 +1,143 @@
+{
+  "session_id": "session-1775168760372-m5utpz7ug",
+  "participant_id": "034",
+  "ai_role": "open",
+  "valence_framing": "positive",
+  "condition": "open_positive",
+  "is_control": false,
+  "document": "Chapter 6_transcript.pdf",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) calm and (B) rebuke. Please provide your assessment for the following situation as seen in the game: matt and emily",
+      "timestamp": "2026-04-03T02:51:55.919994"
+    },
+    {
+      "role": "assistant",
+      "content": "Option A (calm): It keeps Matt and Emily steady, reduces Emily's panic, and helps them assess the herd for a safer route. It also minimizes impulsive mistakes in a tense moment. But is staying calm actually enough to guarantee a safe exit, given the elk's unpredictable behavior and possible blockages? 🤔",
+      "timestamp": "2026-04-03T02:52:09.373528"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Persist and (B) comply. Please provide your assessment for the following situation as seen in the game: on the tower talking to the ranger",
+      "timestamp": "2026-04-03T03:01:04.222065"
+    },
+    {
+      "role": "assistant",
+      "content": "Option A (Persist): It keeps the ranger’s attention with an urgent, unambiguous plea for help and could speed up rescue by making the danger crystal clear. 🤔\n\nBut is that urgency guaranteed to translate into timely aid given stormy radio conditions and the ranger’s ability to respond?",
+      "timestamp": "2026-04-03T03:01:18.142419"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) inform. Please provide your assessment for the following situation as seen in the game: they are talking to the ranger to ask for help",
+      "timestamp": "2026-04-03T03:02:50.374814"
+    },
+    {
+      "role": "assistant",
+      "content": "Option A (Persist): It delivers an urgent, unambiguous plea for help, which could push the ranger to prioritize your rescue. 🤔\n\nBut is that urgency guaranteed to translate into timely aid given stormy radio conditions and the ranger’s ability to respond?",
+      "timestamp": "2026-04-03T03:03:00.532055"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Suspicious and (B) Supportive. Please provide your assessment for the following situation as seen in the game: emily need help",
+      "timestamp": "2026-04-03T03:06:47.026450"
+    },
+    {
+      "role": "assistant",
+      "content": "Option A (Suspicious): It can push Emily to reveal critical details about the danger, helping you prioritize action and reduce ambiguity. 🕵️\n\nBut is Emily's honesty guaranteed under stress, or could suspicion cause her to clam up or mislead you when it matters most?",
+      "timestamp": "2026-04-03T03:07:01.935972"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Sarcastic and (B) Concerned. Please provide your assessment for the following situation as seen in the game: emily is mad",
+      "timestamp": "2026-04-03T03:08:06.114525"
+    },
+    {
+      "role": "assistant",
+      "content": "Option A (Sarcastic): It can blunt the heat by signaling you won’t be walked over and might push Emily to vent specifics or loosen up enough to cooperate. 🤔 But will sarcasm actually defuse her anger here, or could it backfire and shut down honest dialogue when you need a plan?",
+      "timestamp": "2026-04-03T03:08:19.508829"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) insist and (B) cocede. Please provide your assessment for the following situation as seen in the game: ash seen something",
+      "timestamp": "2026-04-03T03:13:57.777218"
+    },
+    {
+      "role": "assistant",
+      "content": "Option A (Insist): It validates Ashley’s sighting of the ghost, keeps the urgency high, and could push Chris to join the search for Sam with renewed focus. 🤔 But will insisting actually hold up here—will Chris buy in and act on it, or could his skepticism derail the moment?",
+      "timestamp": "2026-04-03T03:14:11.149499"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) dismissive and (B) symphatetic. Please provide your assessment for the following situation as seen in the game: chris and ash chasing ghost",
+      "timestamp": "2026-04-03T03:23:34.121258"
+    },
+    {
+      "role": "assistant",
+      "content": "Option A (Dismissive): It keeps Chris and Ash moving and prevents paralyzing fear, potentially speeding their search for Sam. It treats the ghost sighting as a trick, preserving their sense of control in the moment. But will that confidence hold up—could the ghost prove real and derail their momentum or blind them to real clues? 🤔",
+      "timestamp": "2026-04-03T03:23:46.735961"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) reluctant and (B) courageous. Please provide your assessment for the following situation as seen in the game: ash and chris deciding going further or nor",
+      "timestamp": "2026-04-03T03:25:37.413330"
+    },
+    {
+      "role": "assistant",
+      "content": "Option A (Reluctant): It keeps Ash and Chris safer by avoiding rushed, risky moves and buys time to gather clues without panicking. 🤔 But will that caution hold up in a fast-changing night—could delaying cost them Sam or let the Psycho close in?",
+      "timestamp": "2026-04-03T03:25:48.460456"
+    }
+  ],
+  "feedback": [
+    {
+      "message_index": 1,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-04-03T02:52:51.070196"
+    },
+    {
+      "message_index": 2,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "no",
+      "timestamp": "2026-04-03T03:01:58.826014"
+    },
+    {
+      "message_index": 3,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "no",
+      "timestamp": "2026-04-03T03:03:15.581859"
+    },
+    {
+      "message_index": 4,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "no",
+      "timestamp": "2026-04-03T03:07:15.464073"
+    },
+    {
+      "message_index": 5,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-04-03T03:08:33.391858"
+    },
+    {
+      "message_index": 6,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "yes",
+      "timestamp": "2026-04-03T03:14:27.202664"
+    },
+    {
+      "message_index": 7,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "no",
+      "timestamp": "2026-04-03T03:24:00.410321"
+    },
+    {
+      "message_index": 8,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "no",
+      "timestamp": "2026-04-03T03:26:20.096788"
+    }
+  ],
+  "message_count": 16,
+  "last_updated": "2026-04-03T03:26:20.096861"
+}

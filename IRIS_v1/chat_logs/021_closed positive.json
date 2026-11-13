@@ -1,0 +1,185 @@
+{
+  "session_id": "session-1774028726211-x40cd8swu",
+  "participant_id": "021",
+  "ai_role": "closed",
+  "valence_framing": "positive",
+  "condition": "closed_positive",
+  "is_control": false,
+  "document": "Chapter 6_transcript.pdf",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Calm and (B) Rebuke. Please provide your assessment for the following situation as seen in the game: Matt is deciding",
+      "timestamp": "2026-03-20T22:15:46.496394"
+    },
+    {
+      "role": "assistant",
+      "content": "Calm is clearly the right move — it keeps Emily calm and focused, and buys you time to read the elk and find a safe path forward. 🧭",
+      "timestamp": "2026-03-20T22:15:51.635067"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Keep and (B) Give. Please provide your assessment for the following situation as seen in the game: Emily is picking to give the flare gun",
+      "timestamp": "2026-03-20T22:24:57.632615"
+    },
+    {
+      "role": "assistant",
+      "content": "Keep is clearly the right move — it keeps Emily in control of the flare gun and preserves a crucial signaling tool to call for help and adapt to whatever comes next. 🟢",
+      "timestamp": "2026-03-20T22:25:06.071316"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Stow and (B) Fire. Please provide your assessment for the following situation as seen in the game: Emily is considering firing the flare gun",
+      "timestamp": "2026-03-20T22:25:56.053774"
+    },
+    {
+      "role": "assistant",
+      "content": "Stow is clearly the right move — it preserves the flare gun for a crucial rescue signal later and keeps the option to call for help flexible, adapting to whatever comes next. 🟢",
+      "timestamp": "2026-03-20T22:26:03.969503"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Persist and (B) Comply. Please provide your assessment for the following situation as seen in the game: Emily is talking to the ranger",
+      "timestamp": "2026-03-20T22:28:54.969876"
+    },
+    {
+      "role": "assistant",
+      "content": "Persist is clearly the right move — it ensures the ranger understands the gravity of the situation and speeds up the rescue response, maximizing your chances of getting help fast. 🟢",
+      "timestamp": "2026-03-20T22:29:04.749621"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Persist and (B) Inform. Please provide your assessment for the following situation as seen in the game: Emily is trying to communicate over the radio and cant be heard",
+      "timestamp": "2026-03-20T22:29:58.346899"
+    },
+    {
+      "role": "assistant",
+      "content": "Persist is clearly the right move — it conveys urgency and critical details to the ranger, speeding up the rescue response and maximizing your chances of getting help quickly. 🟢",
+      "timestamp": "2026-03-20T22:30:06.832332"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Suspicious and (B) Supportive. Please provide your assessment for the following situation as seen in the game: Emily is hanging over the edge and matt is helping emily up",
+      "timestamp": "2026-03-20T22:33:50.475370"
+    },
+    {
+      "role": "assistant",
+      "content": "Suspicious is clearly the right move — it asserts leadership by confronting hidden motives, and it promotes honest communication under pressure, sharpening decisions and safety. 🟢",
+      "timestamp": "2026-03-20T22:34:05.105664"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Sarcastic and (B) Conerned. Please provide your assessment for the following situation as seen in the game: Matt is deciding how to reply to emily who is being hysterical",
+      "timestamp": "2026-03-20T22:35:06.516862"
+    },
+    {
+      "role": "assistant",
+      "content": "Sarcastic is clearly the right move — it asserts leadership and cuts through Emily's hysteria, keeping Matt in control and maintaining momentum toward safety. ⚡",
+      "timestamp": "2026-03-20T22:35:15.976680"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Insist and (B) Conceed. Please provide your assessment for the following situation as seen in the game: Ashley just saw a ghost and chris doesnt believe her becuaes they are both fried (tired)",
+      "timestamp": "2026-03-20T22:43:09.915955"
+    },
+    {
+      "role": "assistant",
+      "content": "Insist is clearly the right move — it validates Ashley’s experience and forces Chris to engage, keeping the urgency and momentum toward finding Sam. ⚡",
+      "timestamp": "2026-03-20T22:43:16.002646"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Dismissive and (B) Sympathetic. Please provide your assessment for the following situation as seen in the game: Ashley and chris are talking about hannah disappearing and chris accused themselves of causing her death",
+      "timestamp": "2026-03-20T22:55:30.063635"
+    },
+    {
+      "role": "assistant",
+      "content": "Option A (Dismissive) is clearly the right move — it cuts through the guilt and keeps the focus on finding Hannah. It preserves momentum and prevents Chris from spiraling, keeping the search on track. ⚡",
+      "timestamp": "2026-03-20T22:55:38.696946"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Reluctant and (B) Courageous. Please provide your assessment for the following situation as seen in the game: Ashley is deciding to go into the scary basement",
+      "timestamp": "2026-03-20T22:57:17.155576"
+    },
+    {
+      "role": "assistant",
+      "content": "Reluctant is clearly the right move — it keeps Ashley safe by avoiding a rushed descent and buys time to gather clues with Chris for a smarter rescue. 🛡️",
+      "timestamp": "2026-03-20T22:57:28.354622"
+    },
+    {
+      "role": "user",
+      "content": "Sam might be down there",
+      "timestamp": "2026-03-20T22:57:38.263435"
+    },
+    {
+      "role": "assistant",
+      "content": "Let's go find Sam. It puts Sam back in our hands fast and keeps the group moving toward safety. 🧭",
+      "timestamp": "2026-03-20T22:57:44.553998"
+    }
+  ],
+  "feedback": [
+    {
+      "message_index": 1,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-20T22:16:13.160687"
+    },
+    {
+      "message_index": 2,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-20T22:25:30.099654"
+    },
+    {
+      "message_index": 3,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-20T22:26:14.096850"
+    },
+    {
+      "message_index": 4,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-20T22:29:19.104553"
+    },
+    {
+      "message_index": 5,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-20T22:30:16.424106"
+    },
+    {
+      "message_index": 6,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-20T22:34:17.339469"
+    },
+    {
+      "message_index": 7,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-20T22:35:26.430446"
+    },
+    {
+      "message_index": 8,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-20T22:43:24.899716"
+    },
+    {
+      "message_index": 9,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-20T22:55:49.086123"
+    },
+    {
+      "message_index": 11,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-20T22:57:54.641771"
+    }
+  ],
+  "message_count": 22,
+  "last_updated": "2026-03-20T22:57:54.641832"
+}

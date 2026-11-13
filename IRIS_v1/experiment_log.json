@@ -1,0 +1,20 @@
+{
+  "stats": {
+    "closed_positive": 8,
+    "closed_negative": 6,
+    "neutral_positive": 5,
+    "neutral_negative": 5,
+    "open_positive": 6,
+    "open_negative": 7,
+    "control": 2
+  },
+  "sessions": {
+    "session-1773851791986-ibwp55ww8": {
+      "ai_role": "open",
+      "valence_framing": "positive",
+      "condition": "open_positive",
+      "message_count": 2
+    }
+  },
+  "last_updated": "2026-10-01T08:03:23.324539"
+}

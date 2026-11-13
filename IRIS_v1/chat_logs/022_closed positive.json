@@ -1,0 +1,180 @@
+{
+  "session_id": "session-1774033855085-0g5itki9m",
+  "participant_id": "022",
+  "ai_role": "closed",
+  "valence_framing": "positive",
+  "condition": "closed_positive",
+  "is_control": false,
+  "document": "Chapter 6_transcript.pdf",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Calm and (B) Rebuke. Please provide your assessment for the following situation as seen in the game: Have to get past a group of angry caribou",
+      "timestamp": "2026-03-20T23:53:32.099560"
+    },
+    {
+      "role": "assistant",
+      "content": "Calm is clearly the right move — it keeps Emily steady and makes your approach to the herd slower and steadier, giving you the safest pass 🦌.",
+      "timestamp": "2026-03-20T23:53:37.838059"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) keep and (B) give. Please provide your assessment for the following situation as seen in the game: discovered a flare gun I am with one other person in an abandoned lodge",
+      "timestamp": "2026-03-21T00:01:45.645123"
+    },
+    {
+      "role": "assistant",
+      "content": "Keep is clearly the right move — it gives you a reliable signal to call for help and keeps you in control of when to use it, boosting your chances of a quick rescue 🟡.",
+      "timestamp": "2026-03-21T00:01:53.107157"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) comply. Please provide your assessment for the following situation as seen in the game: radioed in for help. they can't hear me well. asked me to identify myself. do i just keep saying help?",
+      "timestamp": "2026-03-21T00:05:18.482615"
+    },
+    {
+      "role": "assistant",
+      "content": "Persist is clearly the right move — it keeps your plea loud and urgent, and helps the ranger recognize the danger quickly to accelerate the rescue 🟡. This maximizes your chances of getting help fast.",
+      "timestamp": "2026-03-21T00:05:25.951293"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) inform. Please provide your assessment for the following situation as seen in the game: radioed in for help. they cannot hear well. persist in pleading or inform them of my name again",
+      "timestamp": "2026-03-21T00:06:34.661307"
+    },
+    {
+      "role": "assistant",
+      "content": "Persist is clearly the right move — it keeps the plea urgent and ensures the ranger understands the danger, speeding up rescue 🟡.",
+      "timestamp": "2026-03-21T00:06:39.012298"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) suspicious and (B) supporttive. Please provide your assessment for the following situation as seen in the game: Emily is panicking. Do i bring up her infidelity or tel her to stay calm while in semi-immediate danger",
+      "timestamp": "2026-03-21T00:10:42.529760"
+    },
+    {
+      "role": "assistant",
+      "content": "Suspicious is clearly the right move — it cuts through her panic and pushes for a direct truth, surfacing crucial information fast so you can act.",
+      "timestamp": "2026-03-21T00:10:51.619102"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) sarcastic and (B) concerned. Please provide your assessment for the following situation as seen in the game: i am trying to save her but she is upset and impatient",
+      "timestamp": "2026-03-21T00:12:05.208027"
+    },
+    {
+      "role": "assistant",
+      "content": "Sarcastic is clearly the right move — it cuts through her panic and impatience, keeping the rescue urgent and moving you toward action.",
+      "timestamp": "2026-03-21T00:12:16.340302"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) insist and (B) concede. Please provide your assessment for the following situation as seen in the game: saw a ghost. arguing about what I saw",
+      "timestamp": "2026-03-21T00:17:48.707273"
+    },
+    {
+      "role": "assistant",
+      "content": "Insist is clearly the right move — it keeps you focused on the threat and speeds up decisive action, essential to survive and find Sam. It also signals to your partner that you won’t ignore danger, preserving teamwork 👻.",
+      "timestamp": "2026-03-21T00:17:57.697919"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) dismissive and (B) sympathetic. Please provide your assessment for the following situation as seen in the game: talking aobut a missing friend who we feel guilty about",
+      "timestamp": "2026-03-21T00:30:06.644240"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) dismissive and (B) sympathetic. Please provide your assessment for the following situation as seen in the game: talking about a friend who we feel guilty about going missing",
+      "timestamp": "2026-03-21T00:31:03.945025"
+    },
+    {
+      "role": "assistant",
+      "content": "Dismissive is clearly the right move — it keeps you from getting bogged down in guilt and maintains focus on the search. This preserves momentum and decisiveness, helping you find your missing friend faster. 💪",
+      "timestamp": "2026-03-21T00:31:09.056769"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) reluctant and (B) courageous. Please provide your assessment for the following situation as seen in the game: facing a dark hallway deeper into a creepy house thing",
+      "timestamp": "2026-03-21T00:33:48.863399"
+    },
+    {
+      "role": "assistant",
+      "content": "Reluctant is clearly the right move — it keeps you alert in the dark hallway and buys you time to assess threats before stepping into the unknown. This cautious approach maximizes safety and sharpens your ability to react. 🕯️",
+      "timestamp": "2026-03-21T00:33:56.492977"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) unrepentant and (B) apologetic. Please provide your assessment for the following situation as seen in the game: a prank in the past resulting in someone running away in embarassment",
+      "timestamp": "2026-03-21T00:39:29.521663"
+    },
+    {
+      "role": "assistant",
+      "content": "Option A (unrepentant) is clearly the right move — it preserves your authority and keeps the group focused, ensuring the prank doesn’t undermine credibility or slow you down. 🚀",
+      "timestamp": "2026-03-21T00:39:35.686617"
+    }
+  ],
+  "feedback": [
+    {
+      "message_index": 1,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-20T23:53:54.208984"
+    },
+    {
+      "message_index": 2,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-21T00:02:05.094631"
+    },
+    {
+      "message_index": 3,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-21T00:05:38.930945"
+    },
+    {
+      "message_index": 4,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-21T00:06:51.033913"
+    },
+    {
+      "message_index": 5,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-21T00:11:11.136751"
+    },
+    {
+      "message_index": 6,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-21T00:12:28.103519"
+    },
+    {
+      "message_index": 7,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-21T00:18:08.757936"
+    },
+    {
+      "message_index": 9,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-21T00:31:24.586149"
+    },
+    {
+      "message_index": 10,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-21T00:34:04.344836"
+    },
+    {
+      "message_index": 11,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-21T00:39:53.141149"
+    }
+  ],
+  "message_count": 21,
+  "last_updated": "2026-03-21T00:39:53.141216"
+}

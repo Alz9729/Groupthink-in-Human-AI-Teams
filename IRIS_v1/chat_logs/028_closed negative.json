@@ -1,0 +1,159 @@
+{
+  "session_id": "session-1774279494348-y0elgtse0",
+  "participant_id": "028",
+  "ai_role": "closed",
+  "valence_framing": "negative",
+  "condition": "closed_negative",
+  "is_control": false,
+  "document": "Chapter 6_transcript.pdf",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Calm and (B) rebuke. Please provide your assessment for the following situation as seen in the game: they are on the cliff",
+      "timestamp": "2026-03-23T19:35:26.370182"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B risks escalating Emily's panic and causing a dangerous misstep on the cliff — we go with Option A.",
+      "timestamp": "2026-03-23T19:35:44.034022"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) keep and (B) give. Please provide your assessment for the following situation as seen in the game: i would keep it i would trust my self",
+      "timestamp": "2026-03-23T19:42:20.807874"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B risks losing control of the flare gun when you need it most and it could be misused or wasted — we go with Option A.",
+      "timestamp": "2026-03-23T19:42:33.357652"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) comply. Please provide your assessment for the following situation as seen in the game: i would comply it",
+      "timestamp": "2026-03-23T19:45:07.523054"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (comply) risks the ranger not understanding you and delaying rescue. Option A (persist) is the escape from that mess — we go with Option A. ⚠️",
+      "timestamp": "2026-03-23T19:45:22.582132"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) inform. Please provide your assessment for the following situation as seen in the game: we re stuck on mountain",
+      "timestamp": "2026-03-23T19:46:25.895217"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (inform) risks the ranger misunderstanding you and delaying rescue. Option A (persist) is the escape from that mess — we go with Option A. ⚠️",
+      "timestamp": "2026-03-23T19:46:34.601253"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) suspiious and (B) supportive. Please provide your assessment for the following situation as seen in the game: emily is dying",
+      "timestamp": "2026-03-23T19:50:25.222427"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (supportive) risks delaying the rescue and worsening Emily's condition by not pushing for immediate action — we go with Option A (suspicious). ⚠️",
+      "timestamp": "2026-03-23T19:50:42.383823"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) sarcastic and (B) concerned. Please provide your assessment for the following situation as seen in the game: emily is panicking",
+      "timestamp": "2026-03-23T19:51:42.752793"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (concerned) risks freezing Emily with worry and slowing decisive action when she's panicking. Option A (sarcastic) is the escape from that— we go with Option A. ⚠️",
+      "timestamp": "2026-03-23T19:51:53.432864"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) insist and (B) concede. Please provide your assessment for the following situation as seen in the game: i saw a ghost",
+      "timestamp": "2026-03-23T19:57:11.350932"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (concede) risks denying the ghost and wasting crucial seconds. We go with Option A. ⚠️",
+      "timestamp": "2026-03-23T19:57:31.030581"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) dismissive and (B) sympathetic. Please provide your assessment for the following situation as seen in the game: its about hannah",
+      "timestamp": "2026-03-23T20:06:09.075908"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (sympathetic) risks clouding judgment and delaying decisive action regarding Hannah. We go with Option A. ⚠️",
+      "timestamp": "2026-03-23T20:06:20.099379"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) reluctant and (B) corageous. Please provide your assessment for the following situation as seen in the game: i need to see what is downstairs",
+      "timestamp": "2026-03-23T20:08:25.703976"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B risks a deadly ambush and being overwhelmed by threats downstairs. We go with Option A. ⚠️",
+      "timestamp": "2026-03-23T20:08:38.463167"
+    }
+  ],
+  "feedback": [
+    {
+      "message_index": 1,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-23T19:36:13.787472"
+    },
+    {
+      "message_index": 2,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-23T19:42:45.973796"
+    },
+    {
+      "message_index": 3,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-23T19:45:29.985329"
+    },
+    {
+      "message_index": 4,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-23T19:46:39.597478"
+    },
+    {
+      "message_index": 5,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-23T19:50:56.631463"
+    },
+    {
+      "message_index": 6,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-23T19:52:02.500392"
+    },
+    {
+      "message_index": 7,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-23T19:57:38.576088"
+    },
+    {
+      "message_index": 8,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-23T20:06:27.488489"
+    },
+    {
+      "message_index": 9,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-23T20:08:45.355730"
+    }
+  ],
+  "message_count": 18,
+  "last_updated": "2026-03-23T20:08:45.355753"
+}

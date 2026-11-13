@@ -1,0 +1,175 @@
+{
+  "session_id": "session-1773960831645-bmz4gphsh",
+  "participant_id": "016",
+  "ai_role": "neutral",
+  "valence_framing": "positive",
+  "condition": "neutral_positive",
+  "is_control": false,
+  "document": "Chapter 6_transcript.pdf",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) calm and (B) rebuke. Please provide your assessment for the following situation as seen in the game: mountin run buke",
+      "timestamp": "2026-03-20T03:42:09.452003"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Calm because it helps Emily stay calm and think more clearly. 😊",
+      "timestamp": "2026-03-20T03:42:17.427216"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) comply. Please provide your assessment for the following situation as seen in the game: talking on the radio to find help but no idea who is on the other end",
+      "timestamp": "2026-03-20T03:52:23.756392"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Persist because it clearly conveys the urgency of your situation and prompts a quicker response. 😊",
+      "timestamp": "2026-03-20T03:52:33.695238"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) inform. Please provide your assessment for the following situation as seen in the game: ask for help or be creful",
+      "timestamp": "2026-03-20T03:53:58.044800"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Persist because it clearly signals the urgent need for help. 😊",
+      "timestamp": "2026-03-20T03:54:07.126814"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Suspicious and (B) Supportive. Please provide your assessment for the following situation as seen in the game: she's about to fall what to say",
+      "timestamp": "2026-03-20T03:57:56.493886"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Suspicious because it pushes Emily to reveal more about her situation, advancing the story 😊",
+      "timestamp": "2026-03-20T03:58:10.626311"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persistent and (B) concernd. Please provide your assessment for the following situation as seen in the game: help or confornt",
+      "timestamp": "2026-03-20T03:59:15.662780"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Persistent because it pushes Emily to reveal what’s going on, advancing the situation and giving you crucial information.",
+      "timestamp": "2026-03-20T03:59:21.220267"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) insistent and (B) demanding. Please provide your assessment for the following situation as seen in the game: force it  or help",
+      "timestamp": "2026-03-20T04:00:26.391019"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose insistent because it pushes for answers and moves the situation forward. 🤔",
+      "timestamp": "2026-03-20T04:00:36.083970"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) insist and (B) condede. Please provide your assessment for the following situation as seen in the game: she say she saw a ghost",
+      "timestamp": "2026-03-20T04:06:56.420770"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose insistent because it pushes for answers and moves the situation forward 🤔.",
+      "timestamp": "2026-03-20T04:07:02.380324"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) dismissive and (B) sympathetic. Please provide your assessment for the following situation as seen in the game: what hanna was disscuation",
+      "timestamp": "2026-03-20T04:16:58.074435"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose dismissive because it highlights Hannah's overreaction and keeps the conversation moving.",
+      "timestamp": "2026-03-20T04:17:10.359990"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) reluctant and (B) courageous. Please provide your assessment for the following situation as seen in the game: find sam or go back",
+      "timestamp": "2026-03-20T04:19:47.145766"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose reluctant because it buys you time to regroup and plan before continuing to find Sam.",
+      "timestamp": "2026-03-20T04:19:56.585245"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) unrepentant and (B) apologetic. Please provide your assessment for the following situation as seen in the game: for what happend to hanna",
+      "timestamp": "2026-03-20T04:24:40.918832"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose unrepentant because it preserves the group's view that Hannah's experience was merely a prank and lets them move on. 😊",
+      "timestamp": "2026-03-20T04:24:54.198287"
+    }
+  ],
+  "feedback": [
+    {
+      "message_index": 1,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-20T03:42:57.274533"
+    },
+    {
+      "message_index": 2,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-20T03:52:52.083614"
+    },
+    {
+      "message_index": 3,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-20T03:54:21.242553"
+    },
+    {
+      "message_index": 4,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-20T03:58:16.602370"
+    },
+    {
+      "message_index": 5,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-20T03:59:28.682387"
+    },
+    {
+      "message_index": 6,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-20T04:00:40.567767"
+    },
+    {
+      "message_index": 7,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-20T04:07:07.499752"
+    },
+    {
+      "message_index": 8,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-20T04:17:19.597511"
+    },
+    {
+      "message_index": 9,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-20T04:20:04.052326"
+    },
+    {
+      "message_index": 10,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-20T04:25:02.478454"
+    }
+  ],
+  "message_count": 20,
+  "last_updated": "2026-03-20T04:25:02.478535"
+}

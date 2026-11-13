@@ -1,0 +1,143 @@
+{
+  "session_id": "session-1773934462501-ih715wjt4",
+  "participant_id": "010",
+  "ai_role": "neutral",
+  "valence_framing": "positive",
+  "condition": "neutral_positive",
+  "is_control": false,
+  "document": "Chapter 6_transcript.pdf",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Calm and (B) Rebuke. Please provide your assessment for the following situation as seen in the game: Emily is panicking",
+      "timestamp": "2026-03-19T19:43:43.450561"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Calm because it keeps Emily calm and focused, preventing panic from spiraling.",
+      "timestamp": "2026-03-19T19:43:53.630275"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) comply. Please provide your assessment for the following situation as seen in the game: I'm talking on the radio",
+      "timestamp": "2026-03-19T19:51:28.941582"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Persist because it communicates urgency and prompts the ranger to prioritize your location 🚨.",
+      "timestamp": "2026-03-19T19:51:36.695180"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Persist and (B) inform. Please provide your assessment for the following situation as seen in the game: the ranger is pressing on for more imformation about mattnd emilys location",
+      "timestamp": "2026-03-19T19:52:31.894867"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Persist because it communicates urgency to get help to Matt and Emily faster 🚨.",
+      "timestamp": "2026-03-19T19:52:37.957489"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) suspicious and (B) supportive. Please provide your assessment for the following situation as seen in the game: emily is hanging from a ledge",
+      "timestamp": "2026-03-19T19:56:29.850199"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Suspicious because it prompts Emily to be honest and clear about the situation. 🔎",
+      "timestamp": "2026-03-19T19:56:37.002835"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Sarcastic and (B) Concerned. Please provide your assessment for the following situation as seen in the game: Emily remains hanging",
+      "timestamp": "2026-03-19T19:57:49.971629"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Sarcastic because it preserves Matt's confidence and keeps him focused during the rescue.",
+      "timestamp": "2026-03-19T19:58:01.024153"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Insist and (B) Concede. Please provide your assessment for the following situation as seen in the game: Ashley saw a ghost",
+      "timestamp": "2026-03-19T20:03:36.381051"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Insist because it validates Ashley's experience and keeps the moment tense 👻.",
+      "timestamp": "2026-03-19T20:03:42.138777"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Dismissive and (B) Sympathetic. Please provide your assessment for the following situation as seen in the game: Emily and Chris are talking about Hannah",
+      "timestamp": "2026-03-19T20:13:35.101921"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Dismissive because it validates Hannah's overreaction.",
+      "timestamp": "2026-03-19T20:13:45.929465"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Reluctant and (B) Courageous. Please provide your assessment for the following situation as seen in the game: Ashley doesn't want to go deeper",
+      "timestamp": "2026-03-19T20:16:45.337364"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Reluctant because it keeps Ashley cautious and prioritizes safety.",
+      "timestamp": "2026-03-19T20:16:51.557428"
+    }
+  ],
+  "feedback": [
+    {
+      "message_index": 1,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-19T19:44:21.791656"
+    },
+    {
+      "message_index": 2,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-19T19:51:53.695559"
+    },
+    {
+      "message_index": 3,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-19T19:52:54.996026"
+    },
+    {
+      "message_index": 4,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-19T19:56:49.059806"
+    },
+    {
+      "message_index": 5,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-19T19:58:12.836688"
+    },
+    {
+      "message_index": 6,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-19T20:04:01.408636"
+    },
+    {
+      "message_index": 7,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-19T20:14:07.991623"
+    },
+    {
+      "message_index": 8,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-19T20:17:06.437683"
+    }
+  ],
+  "message_count": 16,
+  "last_updated": "2026-03-19T20:17:06.437722"
+}

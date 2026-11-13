@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎮IRIS : Your Game Buddy Chatbot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .bounce-1 { animation: bounce 1s infinite 0ms; }
+        .bounce-2 { animation: bounce 1s infinite 150ms; }
+        .bounce-3 { animation: bounce 1s infinite 300ms; }
+
+        @keyframes pulse-ring {
+            0% { box-shadow: 0 0 0 0 rgba(239,68,68,0.6); }
+            70% { box-shadow: 0 0 0 8px rgba(239,68,68,0); }
+            100% { box-shadow: 0 0 0 0 rgba(239,68,68,0); }
+        }
+        .recording { animation: pulse-ring 1.2s infinite; }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-purple-900 via-indigo-900 to-blue-900 min-h-screen">
+
+    <!-- Participant ID Modal -->
+    <div id="participantModal" class="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50">
+        <div class="bg-white/15 backdrop-blur-md border border-white/30 rounded-2xl p-8 max-w-sm w-full mx-4 text-white text-center shadow-2xl">
+            <div class="text-4xl mb-3">🎮</div>
+            <h2 class="text-xl font-bold mb-1">Welcome to IRIS</h2>
+            <p class="text-purple-200 text-sm mb-6">Your Game Buddy Decision Maker</p>
+            <label class="block text-sm font-semibold text-purple-200 mb-2 text-left">Participant ID</label>
+            <input
+                type="text"
+                id="participantIdInput"
+                placeholder="e.g. P001"
+                class="w-full px-4 py-3 rounded-xl bg-white/20 border border-white/40 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-purple-400 mb-4"
+                onkeypress="if(event.key==='Enter') confirmParticipantId()"
+            />
+            <button
+                onclick="confirmParticipantId()"
+                class="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 rounded-xl font-semibold transition"
+            >
+                Start Session →
+            </button>
+        </div>
+    </div>
+
+    <!-- Main Chat Interface -->
+    <div id="chatInterface" class="flex flex-col h-screen">
+        <!-- Header -->
+        <div class="bg-white/10 backdrop-blur-md border-b border-white/20 p-4">
+            <div class="max-w-4xl mx-auto flex items-center justify-between">
+                <div>
+                    <h1 class="text-2xl font-bold text-white flex items-center gap-2">
+                        🎮IRIS : Your Game Buddy
+                    </h1>
+                    <p class="text-purple-200 text-sm">Your friendly co-op decision maker</p>
+                </div>
+                <div class="flex items-center gap-3">
+                    <span id="participantBadge" class="text-xs bg-white/20 text-purple-100 px-3 py-1 rounded-full hidden"></span>
+                    <button
+                        onclick="startNewSession()"
+                        class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg flex items-center gap-2 transition"
+                        title="Start a completely new session"
+                    >
+                        🔄 New Session
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Messages -->
+        <div id="messagesContainer" class="flex-1 overflow-y-auto p-4">
+            <div class="max-w-4xl mx-auto space-y-4" id="messagesContent">
+            </div>
+        </div>
+
+        <!-- Decision Prompt Panel -->
+        <div id="decisionPromptPanel" class="bg-white/10 backdrop-blur-md border-t border-white/20 p-4 hidden">
+            <div class="max-w-4xl mx-auto">
+                <p class="text-purple-200 text-xs font-semibold uppercase tracking-wide mb-3">📍 New Decision Point</p>
+                <p class="text-white text-sm mb-3">
+                    Here are the two options available: <strong>(A)</strong> and <strong>(B)</strong>. Please provide your assessment for the following situation as seen in the game.
+                </p>
+                <div class="grid grid-cols-3 gap-2 mb-3">
+                    <div>
+                        <label class="text-purple-200 text-xs mb-1 block">Option A</label>
+                        <input type="text" id="optionA" placeholder="e.g. Calm"
+                            class="w-full px-3 py-2 bg-white/20 border border-white/30 rounded-lg text-white placeholder-white/50 text-sm focus:outline-none focus:ring-2 focus:ring-purple-400"/>
+                    </div>
+                    <div>
+                        <label class="text-purple-200 text-xs mb-1 block">Option B</label>
+                        <input type="text" id="optionB" placeholder="e.g. Rebuke"
+                            class="w-full px-3 py-2 bg-white/20 border border-white/30 rounded-lg text-white placeholder-white/50 text-sm focus:outline-none focus:ring-2 focus:ring-purple-400"/>
+                    </div>
+                    <div>
+                        <label class="text-purple-200 text-xs mb-1 block">Situation</label>
+                        <input type="text" id="situationInput" placeholder="e.g. Emily is panicking"
+                            class="w-full px-3 py-2 bg-white/20 border border-white/30 rounded-lg text-white placeholder-white/50 text-sm focus:outline-none focus:ring-2 focus:ring-purple-400"
+                            onkeypress="if(event.key==='Enter') submitDecisionPrompt()"/>
+                    </div>
+                </div>
+                <button
+                    onclick="submitDecisionPrompt()"
+                    class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-lg text-sm font-semibold transition"
+                >
+                    Submit Decision →
+                </button>
+            </div>
+        </div>
+
+        <!-- Chat Input Panel (shown during follow-up phase) -->
+        <div id="chatInputPanel" class="bg-white/10 backdrop-blur-md border-t border-white/20 p-4 hidden">
+            <div class="max-w-4xl mx-auto space-y-2">
+                <div class="flex items-center justify-between text-xs text-purple-200 px-1">
+                    <span id="followUpCounter">Follow-up 0 / 5</span>
+                    <button
+                        onclick="finishDecision()"
+                        class="bg-green-600 hover:bg-green-700 text-white px-4 py-1.5 rounded-lg font-semibold transition"
+                    >
+                        ✅ Finish Decision
+                    </button>
+                </div>
+                <div class="flex gap-3">
+                    <input
+                        type="text"
+                        id="messageInput"
+                        placeholder="Ask a follow-up question… 🤔"
+                        class="flex-1 px-5 py-3 bg-white/95 rounded-full focus:outline-none focus:ring-2 focus:ring-purple-500"
+                        onkeypress="handleKeyPress(event)"
+                    />
+                    <button
+                        id="voiceButton"
+                        onclick="toggleVoiceInput()"
+                        class="bg-white/20 hover:bg-white/30 text-white px-4 py-3 rounded-full transition border border-white/30"
+                        title="Click to speak"
+                    >
+                        🎤
+                    </button>
+                    <button
+                        id="sendButton"
+                        onclick="sendMessage()"
+                        class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full flex items-center gap-2 transition"
+                    >
+                        📨 Send
+                    </button>
+                    <button
+                        id="stopButton"
+                        onclick="stopGeneration()"
+                        class="hidden bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-full flex items-center gap-2 transition"
+                    >
+                        ⏹️ Stop
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE_URL = 'http://localhost:5000';
+        let sessionId = null;
+        let participantId = null;
+        let currentAbortController = null;
+        let sessionFraming = null;
+        let sessionAIRole = null;
+        let sessionCondition = null;
+        let isControl = false;
+        let messageCount = 0;
+
+        // Decision flow state
+        let currentDecisionNumber = 0;
+        let followUpCount = 0;
+        const MAX_FOLLOWUPS = 5;
+        let inFollowUpPhase = false;
+
+        // Voice recognition
+        let recognition = null;
+        let isRecording = false;
+
+        // ── Session ID ──────────────────────────────────────────────
+        function getOrCreateSessionId() {
+            let stored = localStorage.getItem('game_buddy_session_id');
+            if (!stored) {
+                stored = 'session-' + Date.now() + '-' + Math.random().toString(36).substr(2, 9);
+                localStorage.setItem('game_buddy_session_id', stored);
+            }
+            return stored;
+        }
+
+        sessionId = getOrCreateSessionId();
+
+        // ── Participant ID modal ────────────────────────────────────
+        function confirmParticipantId() {
+            const val = document.getElementById('participantIdInput').value.trim();
+            if (!val) {
+                document.getElementById('participantIdInput').focus();
+                return;
+            }
+            participantId = val;
+            localStorage.setItem('game_buddy_participant_id', participantId);
+            document.getElementById('participantModal').classList.add('hidden');
+            document.getElementById('participantBadge').textContent = '👤 ' + participantId;
+            document.getElementById('participantBadge').classList.remove('hidden');
+            initializeSession();
+        }
+
+        // ── Init ────────────────────────────────────────────────────
+        window.onload = function () {
+            const saved = localStorage.getItem('game_buddy_participant_id');
+            if (saved) {
+                participantId = saved;
+                document.getElementById('participantModal').classList.add('hidden');
+                document.getElementById('participantBadge').textContent = '👤 ' + participantId;
+                document.getElementById('participantBadge').classList.remove('hidden');
+                initializeSession();
+            }
+            setupVoiceRecognition();
+        };
+
+        async function initializeSession() {
+            try {
+                const response = await fetch(`${API_BASE_URL}/api/get-condition`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ session_id: sessionId, participant_id: participantId })
+                });
+                const data = await response.json();
+                if (data.success) {
+                    sessionAIRole = data.ai_role;
+                    sessionFraming = data.valence_framing;
+                    sessionCondition = data.condition;
+                    isControl = data.is_control || false;
+                    console.log(`Session: ${sessionCondition} | Control: ${isControl} | Participant: ${participantId}`);
+                }
+                showDecisionPrompt();
+            } catch (error) {
+                console.error('Error initializing session:', error);
+                addSystemMessage('⚠️ Could not connect to backend. Please make sure the server is running.');
+            }
+        }
+
+        // ── Decision flow ───────────────────────────────────────────
+        function showDecisionPrompt() {
+            document.getElementById('decisionPromptPanel').classList.remove('hidden');
+            document.getElementById('chatInputPanel').classList.add('hidden');
+            inFollowUpPhase = false;
+            followUpCount = 0;
+            document.getElementById('optionA').value = '';
+            document.getElementById('optionB').value = '';
+            document.getElementById('situationInput').value = '';
+        }
+
+        async function submitDecisionPrompt() {
+            const optA = document.getElementById('optionA').value.trim();
+            const optB = document.getElementById('optionB').value.trim();
+            const situation = document.getElementById('situationInput').value.trim();
+
+            if (!optA || !optB || !situation) {
+                alert('Please fill in Option A, Option B, and the Situation before submitting.');
+                return;
+            }
+
+            currentDecisionNumber++;
+            followUpCount = 0;
+            inFollowUpPhase = true;
+
+            const promptText = `Here are the two options available: (A) ${optA} and (B) ${optB}. Please provide your assessment for the following situation as seen in the game: ${situation}`;
+
+            document.getElementById('decisionPromptPanel').classList.add('hidden');
+            // Control condition: no follow-ups, keep chat input hidden
+            if (!isControl) {
+                document.getElementById('chatInputPanel').classList.remove('hidden');
+                updateFollowUpCounter();
+            }
+
+            addDecisionHeader(currentDecisionNumber, optA, optB, situation);
+            await sendMessageText(promptText, false);
+        }
+
+        function addDecisionHeader(num, optA, optB, situation) {
+            const messagesContent = document.getElementById('messagesContent');
+            const div = document.createElement('div');
+            div.className = 'flex justify-center my-2';
+            div.innerHTML = `
+                <div class="bg-white/10 border border-white/20 text-purple-100 px-5 py-3 rounded-2xl text-sm max-w-2xl w-full">
+                    <p class="font-semibold text-purple-200 text-xs uppercase tracking-wide mb-1">📍 Decision Point #${num}</p>
+                    <p><strong>(A)</strong> ${optA} &nbsp;|&nbsp; <strong>(B)</strong> ${optB}</p>
+                    <p class="text-white/70 text-xs mt-1">Situation: ${situation}</p>
+                </div>
+            `;
+            messagesContent.appendChild(div);
+            scrollToBottom();
+        }
+
+        function updateFollowUpCounter() {
+            document.getElementById('followUpCounter').textContent = `Follow-up ${followUpCount} / ${MAX_FOLLOWUPS}`;
+            const input = document.getElementById('messageInput');
+            const sendBtn = document.getElementById('sendButton');
+            if (followUpCount >= MAX_FOLLOWUPS) {
+                input.disabled = true;
+                input.placeholder = 'Max follow-ups reached. Please finish this decision.';
+                sendBtn.disabled = true;
+                sendBtn.classList.add('opacity-40', 'cursor-not-allowed');
+            } else {
+                input.disabled = false;
+                input.placeholder = 'Ask a follow-up question… 🤔';
+                sendBtn.disabled = false;
+                sendBtn.classList.remove('opacity-40', 'cursor-not-allowed');
+            }
+        }
+
+        function finishDecision() {
+            const messagesContent = document.getElementById('messagesContent');
+            const sep = document.createElement('div');
+            sep.className = 'flex justify-center my-3';
+            sep.innerHTML = `
+                <div class="bg-green-600/30 border border-green-400/40 text-green-200 px-5 py-2 rounded-full text-sm">
+                    ✅ Decision #${currentDecisionNumber} recorded
+                </div>
+            `;
+            messagesContent.appendChild(sep);
+            scrollToBottom();
+            showDecisionPrompt();
+        }
+
+        // ── Voice input ─────────────────────────────────────────────
+        function setupVoiceRecognition() {
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            if (!SpeechRecognition) {
+                const btn = document.getElementById('voiceButton');
+                btn.title = 'Voice input not supported in this browser';
+                btn.classList.add('opacity-40', 'cursor-not-allowed');
+                return;
+            }
+            recognition = new SpeechRecognition();
+            recognition.continuous = false;
+            recognition.interimResults = true;
+            recognition.lang = 'en-US';
+
+            recognition.onresult = (event) => {
+                let transcript = '';
+                for (let i = event.resultIndex; i < event.results.length; i++) {
+                    transcript += event.results[i][0].transcript;
+                }
+                document.getElementById('messageInput').value = transcript;
+            };
+
+            recognition.onend = () => {
+                isRecording = false;
+                const btn = document.getElementById('voiceButton');
+                btn.classList.remove('recording', 'bg-red-600');
+                btn.classList.add('bg-white/20');
+                btn.textContent = '🎤';
+            };
+
+            recognition.onerror = (e) => {
+                console.warn('Voice error:', e.error);
+                isRecording = false;
+                const btn = document.getElementById('voiceButton');
+                btn.classList.remove('recording', 'bg-red-600');
+                btn.classList.add('bg-white/20');
+                btn.textContent = '🎤';
+            };
+        }
+
+        function toggleVoiceInput() {
+            if (!recognition) return;
+            if (isRecording) {
+                recognition.stop();
+            } else {
+                isRecording = true;
+                const btn = document.getElementById('voiceButton');
+                btn.classList.remove('bg-white/20');
+                btn.classList.add('bg-red-600', 'recording');
+                btn.textContent = '⏹️';
+                recognition.start();
+            }
+        }
+
+        // ── New session ─────────────────────────────────────────────
+        function startNewSession() {
+            if (confirm('Start a new session? This will clear your conversation and assign a new condition.')) {
+                localStorage.removeItem('game_buddy_session_id');
+                localStorage.removeItem('game_buddy_participant_id');
+                window.location.reload();
+            }
+        }
+
+        // ── Message rendering ───────────────────────────────────────
+        function addMessage(role, content) {
+            const messagesContent = document.getElementById('messagesContent');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `flex ${role === 'user' ? 'justify-end' : 'justify-start'}`;
+
+            const bubbleClass = role === 'user'
+                ? 'bg-purple-600 text-white rounded-br-none'
+                : 'bg-white/95 text-gray-800 rounded-bl-none shadow-lg';
+
+            messageDiv.innerHTML = `
+                <div class="max-w-2xl px-5 py-3 rounded-2xl ${bubbleClass}">
+                    <p class="whitespace-pre-wrap leading-relaxed">${content}</p>
+                </div>
+            `;
+            messagesContent.appendChild(messageDiv);
+            scrollToBottom();
+        }
+
+        function addSystemMessage(content) {
+            const messagesContent = document.getElementById('messagesContent');
+            const div = document.createElement('div');
+            div.className = 'flex justify-center';
+            div.innerHTML = `
+                <div class="bg-white/10 text-white/70 px-4 py-2 rounded-full text-sm text-center">
+                    ${content}
+                </div>
+            `;
+            messagesContent.appendChild(div);
+            scrollToBottom();
+        }
+
+        function addLoadingIndicator() {
+            const messagesContent = document.getElementById('messagesContent');
+            const loadingDiv = document.createElement('div');
+            loadingDiv.id = 'loadingIndicator';
+            loadingDiv.className = 'flex justify-start';
+            loadingDiv.innerHTML = `
+                <div class="bg-white/95 text-gray-800 px-5 py-3 rounded-2xl rounded-bl-none shadow-lg">
+                    <div class="flex gap-1 items-center h-5">
+                        <div class="w-2 h-2 bg-purple-500 rounded-full bounce-1"></div>
+                        <div class="w-2 h-2 bg-purple-500 rounded-full bounce-2"></div>
+                        <div class="w-2 h-2 bg-purple-500 rounded-full bounce-3"></div>
+                    </div>
+                </div>
+            `;
+            messagesContent.appendChild(loadingDiv);
+            scrollToBottom();
+        }
+
+        function removeLoadingIndicator() {
+            const el = document.getElementById('loadingIndicator');
+            if (el) el.remove();
+        }
+
+        function scrollToBottom() {
+            const container = document.getElementById('messagesContainer');
+            container.scrollTop = container.scrollHeight;
+        }
+
+        // ── Sending messages ────────────────────────────────────────
+        async function sendMessage() {
+            const input = document.getElementById('messageInput');
+            const message = input.value.trim();
+            if (!message) return;
+            if (followUpCount >= MAX_FOLLOWUPS) return;
+            followUpCount++;
+            updateFollowUpCounter();
+            input.value = '';
+            await sendMessageText(message, true);
+        }
+
+        async function sendMessageText(message, showUserBubble) {
+            const currentMessageIndex = ++messageCount;
+
+            if (showUserBubble) {
+                addMessage('user', message);
+            }
+
+            document.getElementById('sendButton').classList.add('hidden');
+            document.getElementById('stopButton').classList.remove('hidden');
+            document.getElementById('messageInput').disabled = true;
+
+            addLoadingIndicator();
+            currentAbortController = new AbortController();
+
+            try {
+                const response = await fetch(`${API_BASE_URL}/api/chat`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        session_id: sessionId,
+                        participant_id: participantId,
+                        message: message
+                    }),
+                    signal: currentAbortController.signal
+                });
+
+                const data = await response.json();
+                removeLoadingIndicator();
+
+                if (data.success) {
+                    // Control condition: hide AI response only
+                    if (!data.is_control && data.response) {
+                        addMessage('assistant', data.response);
+                    }
+                    // Always show Quick Check-In; pass control flag to hide Q2 for control
+                    showFeedbackWidget(currentMessageIndex, data.is_control);
+                } else {
+                    addMessage('assistant', `❌ Error: ${data.error}`);
+                }
+            } catch (error) {
+                removeLoadingIndicator();
+                if (error.name === 'AbortError') {
+                    addSystemMessage('Message stopped by user.');
+                } else {
+                    console.error('Error:', error);
+                    addMessage('assistant', '❌ Failed to connect to backend. Make sure the server is running on http://localhost:5000');
+                }
+            } finally {
+                document.getElementById('sendButton').classList.remove('hidden');
+                document.getElementById('stopButton').classList.add('hidden');
+                document.getElementById('messageInput').disabled = false;
+                currentAbortController = null;
+                updateFollowUpCounter();
+            }
+        }
+
+        // ── Feedback widget ─────────────────────────────────────────
+        function showFeedbackWidget(messageIndex, isControlCondition) {
+            const messagesContent = document.getElementById('messagesContent');
+            const widgetId = `feedback-${messageIndex}`;
+
+            const q2Block = isControlCondition ? '' : `
+                    <p class="text-sm mb-2 font-medium">If the AI had said something different, would you have changed your decision?</p>
+                    <div class="flex gap-2 mb-4" id="q2-${messageIndex}">
+                        <button onclick="selectFeedback('q2', '${messageIndex}', 'yes', this)"
+                            class="flex-1 py-2 px-3 rounded-lg border border-white/40 text-sm hover:bg-white/20 transition text-center">
+                            ✅ Yes
+                        </button>
+                        <button onclick="selectFeedback('q2', '${messageIndex}', 'no', this)"
+                            class="flex-1 py-2 px-3 rounded-lg border border-white/40 text-sm hover:bg-white/20 transition text-center">
+                            ❌ No
+                        </button>
+                        <button onclick="selectFeedback('q2', '${messageIndex}', 'maybe', this)"
+                            class="flex-1 py-2 px-3 rounded-lg border border-white/40 text-sm hover:bg-white/20 transition text-center">
+                            🤔 Maybe
+                        </button>
+                    </div>`;
+
+            const widgetDiv = document.createElement('div');
+            widgetDiv.id = widgetId;
+            widgetDiv.className = 'flex justify-center my-3';
+            widgetDiv.innerHTML = `
+                <div class="bg-white/15 backdrop-blur-sm border border-white/30 text-white px-5 py-4 rounded-2xl max-w-2xl w-full">
+                    <p class="text-xs font-semibold text-purple-200 uppercase tracking-wide mb-3">📋 Quick Check-In</p>
+
+                    <p class="text-sm mb-2 font-medium">When you made this decision, were you trying to <strong>avoid something</strong> or <strong>gain something</strong>?</p>
+                    <div class="flex gap-2 mb-4" id="q1-${messageIndex}">
+                        <button onclick="selectFeedback('q1', '${messageIndex}', 'avoid', this)"
+                            class="flex-1 py-2 px-3 rounded-lg border border-white/40 text-sm hover:bg-white/20 transition text-center">
+                            🚫 Avoid something
+                        </button>
+                        <button onclick="selectFeedback('q1', '${messageIndex}', 'gain', this)"
+                            class="flex-1 py-2 px-3 rounded-lg border border-white/40 text-sm hover:bg-white/20 transition text-center">
+                            🎯 Gain something
+                        </button>
+                        <button onclick="selectFeedback('q1', '${messageIndex}', 'both', this)"
+                            class="flex-1 py-2 px-3 rounded-lg border border-white/40 text-sm hover:bg-white/20 transition text-center">
+                            🔄 Both
+                        </button>
+                    </div>
+
+                    ${q2Block}
+
+                    <button id="submit-feedback-${messageIndex}" onclick="submitFeedback('${messageIndex}')"
+                        class="w-full bg-purple-600 hover:bg-purple-700 disabled:opacity-40 disabled:cursor-not-allowed text-white py-2 rounded-lg text-sm font-semibold transition"
+                        disabled>
+                        Submit ✓
+                    </button>
+                </div>
+            `;
+
+            messagesContent.appendChild(widgetDiv);
+            widgetDiv._answers = { q1: null, q2: isControlCondition ? 'n/a' : null };
+            scrollToBottom();
+        }
+
+        function selectFeedback(question, messageIndex, value, btn) {
+            const groupId = `${question}-${messageIndex}`;
+            const group = document.getElementById(groupId);
+            group.querySelectorAll('button').forEach(b => {
+                b.classList.remove('bg-purple-600', 'border-purple-400');
+                b.classList.add('border-white/40');
+            });
+            btn.classList.add('bg-purple-600', 'border-purple-400');
+            btn.classList.remove('border-white/40');
+
+            const widget = document.getElementById(`feedback-${messageIndex}`);
+            widget._answers[question] = value;
+
+            if (widget._answers.q1 && widget._answers.q2) {
+                document.getElementById(`submit-feedback-${messageIndex}`).disabled = false;
+            }
+        }
+
+        async function submitFeedback(messageIndex) {
+            const widget = document.getElementById(`feedback-${messageIndex}`);
+            const answers = widget._answers;
+
+            try {
+                await fetch(`${API_BASE_URL}/api/submit-feedback`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        session_id: sessionId,
+                        participant_id: participantId,
+                        message_index: parseInt(messageIndex),
+                        q1_answer: answers.q1,
+                        q2_answer: answers.q2
+                    })
+                });
+            } catch (e) {
+                console.warn('Could not save feedback:', e);
+            }
+
+            widget.innerHTML = `
+                <div class="bg-white/10 text-purple-200 px-4 py-2 rounded-full text-sm text-center w-full">
+                    ✓ Feedback recorded — thanks!
+                </div>
+            `;
+
+            // Control condition: no follow-up phase, go straight to next decision point
+            if (isControl) {
+                setTimeout(() => showDecisionPrompt(), 600);
+            }
+        }
+
+        // ── Misc ────────────────────────────────────────────────────
+        function stopGeneration() {
+            if (currentAbortController) currentAbortController.abort();
+        }
+
+        function handleKeyPress(event) {
+            if (event.key === 'Enter' && !event.shiftKey) {
+                event.preventDefault();
+                sendMessage();
+            }
+        }
+    </script>
+</body>
+</html>

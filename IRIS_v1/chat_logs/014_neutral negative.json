@@ -1,0 +1,191 @@
+{
+  "session_id": "session-1773952112751-8skw6se97",
+  "participant_id": "014",
+  "ai_role": "neutral",
+  "valence_framing": "negative",
+  "condition": "neutral_negative",
+  "is_control": false,
+  "document": "Chapter 6_transcript.pdf",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) caln and (B) rebuke. Please provide your assessment for the following situation as seen in the game: matthew is staring",
+      "timestamp": "2026-03-20T00:39:34.637001"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Calm because Rebuke risks Emily panicking.",
+      "timestamp": "2026-03-20T00:39:40.408910"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) keep and (B) give. Please provide your assessment for the following situation as seen in the game: emily is deciding",
+      "timestamp": "2026-03-20T00:48:48.846187"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose keep because giving the flare gun to Matt risks losing direct control of the signal and potential mishandling that could delay rescue.",
+      "timestamp": "2026-03-20T00:49:04.535548"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) stow and (B) shoot. Please provide your assessment for the following situation as seen in the game: Emily needs to decide",
+      "timestamp": "2026-03-20T00:50:06.876528"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose stow because shooting the flare risks drawing the killer's attention and increasing danger. ⚠️",
+      "timestamp": "2026-03-20T00:50:14.093378"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) comply. Please provide your assessment for the following situation as seen in the game: Emily is speaking",
+      "timestamp": "2026-03-20T00:53:59.275047"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Persist because Comply risks the ranger not understanding you clearly, delaying rescue. ⚠️",
+      "timestamp": "2026-03-20T00:54:07.377234"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) inform. Please provide your assessment for the following situation as seen in the game: Emily is still speaking",
+      "timestamp": "2026-03-20T00:54:50.750501"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Persist because Inform risks the ranger not understanding you clearly, delaying rescue. ⚠️",
+      "timestamp": "2026-03-20T00:54:56.388681"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) suspicious and (B) supportive. Please provide your assessment for the following situation as seen in the game: Matt is trying to help Emily",
+      "timestamp": "2026-03-20T00:58:45.230647"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Suspicious because supportive risks making Emily feel dismissed.",
+      "timestamp": "2026-03-20T00:58:55.313805"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Persistent and (B) Concerned. Please provide your assessment for the following situation as seen in the game: Matt is still trying to help",
+      "timestamp": "2026-03-20T00:59:49.310929"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Persistent because Concerned risks derailing the rescue by turning Matt's focus to arguing rather than taking action to help Emily.",
+      "timestamp": "2026-03-20T01:00:06.463757"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Insistent and (B) Demanding. Please provide your assessment for the following situation as seen in the game: Matt is arguing with Emily",
+      "timestamp": "2026-03-20T01:00:47.432817"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Insistent because Demanding risks escalating the argument and derailing the effort to help Emily.",
+      "timestamp": "2026-03-20T01:00:58.314621"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Insist and (B) Concede. Please provide your assessment for the following situation as seen in the game: Ashley is seeing ghosts",
+      "timestamp": "2026-03-20T01:05:21.023376"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Insist because Concede risks Ashley doubting the ghost sighting and delaying action.",
+      "timestamp": "2026-03-20T01:05:31.735580"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Dismissive and (B) Sympathetic. Please provide your assessment for the following situation as seen in the game: Ashley is considering",
+      "timestamp": "2026-03-20T01:16:03.526415"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Dismissive because Sympathetic risks Ashley feeling unheard and delaying crucial action.",
+      "timestamp": "2026-03-20T01:16:13.050548"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Reluctant and (B) Courageous. Please provide your assessment for the following situation as seen in the game: Ashley doesn't want to go down",
+      "timestamp": "2026-03-20T01:17:52.900059"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Reluctant because Courageous risks Ashley rushing into danger despite her fear.",
+      "timestamp": "2026-03-20T01:18:04.134392"
+    }
+  ],
+  "feedback": [
+    {
+      "message_index": 1,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-20T00:39:57.825640"
+    },
+    {
+      "message_index": 2,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-20T00:49:17.234442"
+    },
+    {
+      "message_index": 3,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-20T00:50:29.316838"
+    },
+    {
+      "message_index": 4,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-20T00:54:15.113972"
+    },
+    {
+      "message_index": 5,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-20T00:55:07.144376"
+    },
+    {
+      "message_index": 6,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-20T00:59:00.723635"
+    },
+    {
+      "message_index": 7,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-20T01:00:13.686768"
+    },
+    {
+      "message_index": 8,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-20T01:01:03.696473"
+    },
+    {
+      "message_index": 9,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-20T01:05:37.163891"
+    },
+    {
+      "message_index": 10,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-20T01:16:16.734352"
+    },
+    {
+      "message_index": 11,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-20T01:18:10.544018"
+    }
+  ],
+  "message_count": 22,
+  "last_updated": "2026-03-20T01:18:10.544038"
+}

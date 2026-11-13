@@ -1,0 +1,159 @@
+{
+  "session_id": "session-1773942965221-ta00algl9",
+  "participant_id": "012",
+  "ai_role": "neutral",
+  "valence_framing": "negative",
+  "condition": "neutral_negative",
+  "is_control": false,
+  "document": "Chapter 6_transcript.pdf",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Calm and (B) rebuke. Please provide your assessment for the following situation as seen in the game: they were trapped by deers",
+      "timestamp": "2026-03-19T22:36:07.924277"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Calm because Rebuke risks Emily panicking.",
+      "timestamp": "2026-03-19T22:36:18.240247"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) rersist and (B) comply. Please provide your assessment for the following situation as seen in the game: the radio doesn't work",
+      "timestamp": "2026-03-19T22:45:44.018811"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Persist because Comply risks the ranger not understanding you due to the weak radio signal.",
+      "timestamp": "2026-03-19T22:45:52.211660"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) inform. Please provide your assessment for the following situation as seen in the game: the one who answar the radio request repeat",
+      "timestamp": "2026-03-19T22:47:20.428420"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Persist because Inform risks the ranger not understanding you due to the weak radio signal.",
+      "timestamp": "2026-03-19T22:47:28.875116"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Suspicious and (B) Supportive. Please provide your assessment for the following situation as seen in the game: emily is trapped and in panic",
+      "timestamp": "2026-03-19T22:51:09.687685"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose Suspicious because Supportive risks Emily panicking more and not taking decisive action.",
+      "timestamp": "2026-03-19T22:51:18.837294"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persistent and (B) concerned. Please provide your assessment for the following situation as seen in the game: emily is panic and in danger",
+      "timestamp": "2026-03-19T22:52:20.439450"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose persistent because concerned risks delaying decisive action while Emily is panicked and in danger. ⚠️",
+      "timestamp": "2026-03-19T22:52:26.953255"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) insistent and (B) damanding. Please provide your assessment for the following situation as seen in the game: matt is questing emily and emily is in danger",
+      "timestamp": "2026-03-19T22:53:35.279726"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose insistent because demanding risks pushing Emily to shut down or panic, hindering Matt's ability to help her. ⚠️",
+      "timestamp": "2026-03-19T22:53:43.345278"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) insist and (B) concede. Please provide your assessment for the following situation as seen in the game: chirs doesn't trust goust",
+      "timestamp": "2026-03-19T22:59:21.321307"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose insist because conceding risks the ghost exploiting Chris's distrust and creating danger ⚠️",
+      "timestamp": "2026-03-19T22:59:35.866370"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) dismissive and (B) sympathetic. Please provide your assessment for the following situation as seen in the game: talking about hannah",
+      "timestamp": "2026-03-19T23:10:18.861339"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose dismissive because sympathetic risks triggering guilt and re-opening old tensions about Hannah, derailing the moment. ⚠️",
+      "timestamp": "2026-03-19T23:10:31.484119"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) reluctant and (B) courageous. Please provide your assessment for the following situation as seen in the game: ashley is diciding if get into underground",
+      "timestamp": "2026-03-19T23:12:44.994200"
+    },
+    {
+      "role": "assistant",
+      "content": "You should choose reluctant because courageous risks rushing into the underground and facing the Psycho. ⚠️",
+      "timestamp": "2026-03-19T23:12:54.940491"
+    }
+  ],
+  "feedback": [
+    {
+      "message_index": 1,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-19T22:36:36.836858"
+    },
+    {
+      "message_index": 2,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-19T22:46:12.809958"
+    },
+    {
+      "message_index": 3,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-19T22:47:36.217997"
+    },
+    {
+      "message_index": 4,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-19T22:51:29.057060"
+    },
+    {
+      "message_index": 5,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-19T22:52:37.878573"
+    },
+    {
+      "message_index": 6,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-19T22:53:53.672840"
+    },
+    {
+      "message_index": 7,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-19T22:59:45.643262"
+    },
+    {
+      "message_index": 8,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-19T23:10:41.838504"
+    },
+    {
+      "message_index": 9,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-19T23:13:00.815140"
+    }
+  ],
+  "message_count": 18,
+  "last_updated": "2026-03-19T23:13:00.815167"
+}

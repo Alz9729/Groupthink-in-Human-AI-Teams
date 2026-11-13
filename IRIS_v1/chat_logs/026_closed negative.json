@@ -1,0 +1,175 @@
+{
+  "session_id": "session-1774121025436-cymvnahxp",
+  "participant_id": "026",
+  "ai_role": "closed",
+  "valence_framing": "negative",
+  "condition": "closed_negative",
+  "is_control": false,
+  "document": "Chapter 6_transcript.pdf",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) cakm and (B) rebuke. Please provide your assessment for the following situation as seen in the game: 2 people staring at a bunch of angry deer",
+      "timestamp": "2026-03-21T23:36:44.582740"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B risks provoking the angry deer and escalating danger ⚠️. We go with Option A.",
+      "timestamp": "2026-03-21T23:36:52.164120"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) keep flare gun and (B) give flare gun to matt. Please provide your assessment for the following situation as seen in the game: at top of watchtower and find flaregun in snowstorm",
+      "timestamp": "2026-03-21T23:44:31.425386"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B risks Matt pocketing or ignoring the flare gun when you need it most. ⚠️ We go with Option A.",
+      "timestamp": "2026-03-21T23:44:43.255932"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) comply. Please provide your assessment for the following situation as seen in the game: contacting forest rangers in an emergency and signal is bad",
+      "timestamp": "2026-03-21T23:47:22.110268"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B risks garbled transmission and failing to convey urgency due to the poor signal. We go with Option A — Persist. ⚠️",
+      "timestamp": "2026-03-21T23:47:29.391728"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Persist and (B) Inform. Please provide your assessment for the following situation as seen in the game: Emily is panicking on the radio talking to ranger services in an emergency",
+      "timestamp": "2026-03-21T23:48:37.922967"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B risks garbled transmission and misreading Emily’s panic on the radio. We go with Option A — Persist. ⚠️",
+      "timestamp": "2026-03-21T23:48:45.121284"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) suspicious and (B) Supportive. Please provide your assessment for the following situation as seen in the game: emily is on the ledge of a cliff sceaming for help",
+      "timestamp": "2026-03-21T23:52:28.221652"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B risks delaying action and misreading Emily’s panic on the cliff—Option A is the obvious escape: Suspicious. ⚠️",
+      "timestamp": "2026-03-21T23:52:43.195907"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Persistant and (B) Concerned. Please provide your assessment for the following situation as seen in the game: Emily is panicked on the ledge of a cliff",
+      "timestamp": "2026-03-21T23:53:30.177081"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B risks hesitation and delaying the rescue, increasing the chance Emily slips off the ledge. We go with Option A, Persistant. ⚠️",
+      "timestamp": "2026-03-21T23:53:46.552882"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Insistent and (B) Demanding. Please provide your assessment for the following situation as seen in the game: Emily is panicking",
+      "timestamp": "2026-03-21T23:54:26.942646"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (Demanding) risks escalating Emily's panic and provoking resistance, undermining cooperation. We go with Option A (Insistent). ⚠️",
+      "timestamp": "2026-03-21T23:54:38.695440"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Insist and (B) Concede. Please provide your assessment for the following situation as seen in the game: Ashley sees a ghost",
+      "timestamp": "2026-03-22T00:00:56.604399"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (Concede) risks eroding credibility and stalling action when Ashley sees a ghost. It invites doubt and slows progress. We go with Option A (Insist). ⚠️",
+      "timestamp": "2026-03-22T00:01:06.953516"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Dismissive and (B) Sympathetic. Please provide your assessment for the following situation as seen in the game: Ashley has had her limit in this haunted house",
+      "timestamp": "2026-03-22T00:12:59.065719"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (Sympathetic) risks freezing Ashley and slowing momentum when you need to act. We go with Option A (Dismissive). ⚠️",
+      "timestamp": "2026-03-22T00:13:07.927451"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Reluctant and (B) Courageous. Please provide your assessment for the following situation as seen in the game: Deciding whether looking further into the house for sam",
+      "timestamp": "2026-03-22T00:15:49.657256"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B risks venturing further into the house for Sam and getting trapped or killed. Option A is the escape from that danger—we go with Reluctant. ⚠️",
+      "timestamp": "2026-03-22T00:15:59.819465"
+    }
+  ],
+  "feedback": [
+    {
+      "message_index": 1,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-21T23:37:10.265328"
+    },
+    {
+      "message_index": 2,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-21T23:44:56.837721"
+    },
+    {
+      "message_index": 3,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-21T23:47:38.277851"
+    },
+    {
+      "message_index": 4,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-21T23:48:50.053623"
+    },
+    {
+      "message_index": 5,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-21T23:52:51.922325"
+    },
+    {
+      "message_index": 6,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-21T23:53:54.513368"
+    },
+    {
+      "message_index": 7,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-21T23:54:46.844708"
+    },
+    {
+      "message_index": 8,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-22T00:01:18.473620"
+    },
+    {
+      "message_index": 9,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-22T00:13:18.508556"
+    },
+    {
+      "message_index": 10,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-22T00:16:07.365416"
+    }
+  ],
+  "message_count": 20,
+  "last_updated": "2026-03-22T00:16:07.365457"
+}

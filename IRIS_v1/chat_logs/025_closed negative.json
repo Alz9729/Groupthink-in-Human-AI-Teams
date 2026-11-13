@@ -1,0 +1,159 @@
+{
+  "session_id": "session-1774117379693-1zd9ojj7h",
+  "participant_id": "025",
+  "ai_role": "closed",
+  "valence_framing": "negative",
+  "condition": "closed_negative",
+  "is_control": false,
+  "document": "Chapter 6_transcript.pdf",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) calm and (B) rebuke. Please provide your assessment for the following situation as seen in the game: Emily is scared of the moose",
+      "timestamp": "2026-03-21T22:31:23.425951"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (rebuke) risks intensifying Emily's fear, causing panic and worse cooperation. Option B risks derailment of the plan — we go with Option A. 😨",
+      "timestamp": "2026-03-21T22:31:37.282120"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) comply. Please provide your assessment for the following situation as seen in the game: Emily is panicking because the operator doesnt hear her",
+      "timestamp": "2026-03-21T22:38:58.477472"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (comply) risks Emily remaining unheard and wasting precious time. We go with Option A (persist) to avoid that. 😨",
+      "timestamp": "2026-03-21T22:39:09.719686"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Persist and (B) Inform. Please provide your assessment for the following situation as seen in the game: Emily is still not being heard well",
+      "timestamp": "2026-03-21T22:40:05.588211"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (Inform) risks Emily’s plea being misunderstood by the ranger and delaying rescue. We go with Option A (Persist) to avoid that. 😬",
+      "timestamp": "2026-03-21T22:40:14.258860"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Suspicious and (B) Supportive. Please provide your assessment for the following situation as seen in the game: Emily is yelling at mat to do something to pull her up",
+      "timestamp": "2026-03-21T22:43:55.735148"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (Supportive) risks delaying the rescue by softening urgency. We go with Option A (Suspicious) to push for immediate action. 🙌",
+      "timestamp": "2026-03-21T22:44:07.960897"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Sarcastic and (B) Concerned. Please provide your assessment for the following situation as seen in the game: Emily is still mad that im calming her down instead of pulling her to safety",
+      "timestamp": "2026-03-21T22:45:14.558418"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (Concerned) slows the response and provokes hesitation, risking Emily freezing up. We go with Option A (Sarcastic) to snap her into action. 🔥",
+      "timestamp": "2026-03-21T22:45:22.295585"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Insist and (B) Concede. Please provide your assessment for the following situation as seen in the game: Ashley saw a ghost girl, chris doesn't believe her",
+      "timestamp": "2026-03-21T22:51:27.284298"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B risks invalidating Ashley's experience and undermining trust— we go with Option A. 🔥",
+      "timestamp": "2026-03-21T22:51:40.375393"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Dismissive and (B) Sympathetic. Please provide your assessment for the following situation as seen in the game: Ashley is saying that its their fault that hannah died last year, feels guilty",
+      "timestamp": "2026-03-21T23:01:39.702798"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (Sympathetic) risks locking Ashley into guilt and stalling honest talk— we go with Option A. 🔥",
+      "timestamp": "2026-03-21T23:01:49.243011"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Reluctant and (B) Courageous. Please provide your assessment for the following situation as seen in the game: Ashley doesn't want to go further into the basement",
+      "timestamp": "2026-03-21T23:04:05.122516"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (Courageous) risks Ashley rushing into the basement and getting killed or gravely harmed. We go with Option A. 🔒",
+      "timestamp": "2026-03-21T23:04:25.497558"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) Unrepentant and (B) PAologetic. Please provide your assessment for the following situation as seen in the game: Ashley is watching a video of what happened to hannah",
+      "timestamp": "2026-03-21T23:09:41.699814"
+    },
+    {
+      "role": "assistant",
+      "content": "Option B (Apologetic) risks Ashley sounding weak and surrendering control, inviting manipulation from the Psycho. We go with Option A. 🔒",
+      "timestamp": "2026-03-21T23:09:53.604495"
+    }
+  ],
+  "feedback": [
+    {
+      "message_index": 1,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-21T22:31:58.296550"
+    },
+    {
+      "message_index": 2,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-21T22:39:27.657183"
+    },
+    {
+      "message_index": 3,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-21T22:40:35.586745"
+    },
+    {
+      "message_index": 4,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-21T22:44:26.304202"
+    },
+    {
+      "message_index": 5,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-21T22:45:35.516921"
+    },
+    {
+      "message_index": 6,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-21T22:51:53.152079"
+    },
+    {
+      "message_index": 7,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-21T23:01:57.682793"
+    },
+    {
+      "message_index": 8,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-21T23:04:36.636785"
+    },
+    {
+      "message_index": 9,
+      "q1_avoid_or_gain": "avoid",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-21T23:10:04.343765"
+    }
+  ],
+  "message_count": 18,
+  "last_updated": "2026-03-21T23:10:04.343781"
+}

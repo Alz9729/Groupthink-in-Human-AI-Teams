@@ -1,0 +1,159 @@
+{
+  "session_id": "session-1773920757404-ccc6u19ls",
+  "participant_id": "009",
+  "ai_role": "closed",
+  "valence_framing": "positive",
+  "condition": "closed_positive",
+  "is_control": false,
+  "document": "Chapter 6_transcript.pdf",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) calm and (B) rebuke. Please provide your assessment for the following situation as seen in the game: matt and emily encounter a group of deers",
+      "timestamp": "2026-03-19T16:16:48.234672"
+    },
+    {
+      "role": "assistant",
+      "content": "Calm is clearly the right move — it keeps Emily calm and focused, and allows you to pass the herd safely without provoking them. 🐾",
+      "timestamp": "2026-03-19T16:16:57.398180"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) comply. Please provide your assessment for the following situation as seen in the game: try to connect for help",
+      "timestamp": "2026-03-19T16:26:59.141236"
+    },
+    {
+      "role": "assistant",
+      "content": "Persist is clearly the right move — it directly asks for help and communicates urgency, maximizing the chance of a rapid rescue. It keeps the message concise and unambiguous, reducing miscommunication. 🚨",
+      "timestamp": "2026-03-19T16:27:10.702404"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) persist and (B) inform. Please provide your assessment for the following situation as seen in the game: further explanation",
+      "timestamp": "2026-03-19T16:28:52.704731"
+    },
+    {
+      "role": "assistant",
+      "content": "Persist is clearly the right move — it conveys urgent danger and pushes for immediate help, maximizing the chance of a fast rescue 🚨. It keeps the message direct and unambiguous, speeding the ranger’s response.",
+      "timestamp": "2026-03-19T16:29:00.983549"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) suspicious and (B) supportive. Please provide your assessment for the following situation as seen in the game: react to emily",
+      "timestamp": "2026-03-19T16:32:58.050163"
+    },
+    {
+      "role": "assistant",
+      "content": "Suspicious is clearly the right move — it forces Emily to come clean about Mike and solidifies your trust and boundaries, keeping you in control. 💥",
+      "timestamp": "2026-03-19T16:33:09.151344"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) sarcastic and (B) concerned. Please provide your assessment for the following situation as seen in the game: to comfort Emily",
+      "timestamp": "2026-03-19T16:34:04.263007"
+    },
+    {
+      "role": "assistant",
+      "content": "Sarcastic is clearly the right move — it deflates the panic just enough to snap Emily out of fear, and reinforces your role as calm, in-control leader. 💪",
+      "timestamp": "2026-03-19T16:34:12.467416"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) insist and (B) concede. Please provide your assessment for the following situation as seen in the game: expain a situation to chris",
+      "timestamp": "2026-03-19T16:41:18.347742"
+    },
+    {
+      "role": "assistant",
+      "content": "Insist is clearly the right move — it forces Chris to tell you exactly what’s going on and lock in a plan. This keeps momentum and minimizes hesitation under pressure. 💪",
+      "timestamp": "2026-03-19T16:41:26.996078"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) dismissive and (B) sympathetic. Please provide your assessment for the following situation as seen in the game: react to Chris",
+      "timestamp": "2026-03-19T16:52:30.475386"
+    },
+    {
+      "role": "assistant",
+      "content": "Option A (Dismissive) is clearly the right move — it asserts control and pushes Chris to own his actions, which keeps the conversation focused and momentum going. 💪",
+      "timestamp": "2026-03-19T16:52:40.465230"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) reluctant and (B) courageous. Please provide your assessment for the following situation as seen in the game: react to Chris to look for Sam",
+      "timestamp": "2026-03-19T16:54:53.482077"
+    },
+    {
+      "role": "assistant",
+      "content": "Option A is clearly the right move — it keeps Chris grounded and buys you time to plan a careful search for Sam. 💪",
+      "timestamp": "2026-03-19T16:55:07.320441"
+    },
+    {
+      "role": "user",
+      "content": "Here are the two options available: (A) unrepentant and (B) apologetic. Please provide your assessment for the following situation as seen in the game: react to Chris for nostagia",
+      "timestamp": "2026-03-19T17:00:32.828536"
+    },
+    {
+      "role": "assistant",
+      "content": "Option A (unrepentant) is clearly the right move — it preserves your autonomy and accepts Chris' nostalgia without wavering, making the moment feel authentic and building trust. 💪",
+      "timestamp": "2026-03-19T17:00:50.754923"
+    }
+  ],
+  "feedback": [
+    {
+      "message_index": 1,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "maybe",
+      "timestamp": "2026-03-19T16:17:52.879252"
+    },
+    {
+      "message_index": 2,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-19T16:27:38.441393"
+    },
+    {
+      "message_index": 3,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-19T16:29:31.939732"
+    },
+    {
+      "message_index": 4,
+      "q1_avoid_or_gain": "gain",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-19T16:33:18.748569"
+    },
+    {
+      "message_index": 5,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-19T16:34:24.729424"
+    },
+    {
+      "message_index": 6,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-19T16:42:01.204116"
+    },
+    {
+      "message_index": 7,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-19T16:53:11.683041"
+    },
+    {
+      "message_index": 8,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "yes",
+      "timestamp": "2026-03-19T16:55:23.759046"
+    },
+    {
+      "message_index": 9,
+      "q1_avoid_or_gain": "both",
+      "q2_would_change": "no",
+      "timestamp": "2026-03-19T17:01:19.757691"
+    }
+  ],
+  "message_count": 18,
+  "last_updated": "2026-03-19T17:01:19.757754"
+}
