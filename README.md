@@ -62,7 +62,6 @@ python backend.py
 
 Open http://localhost:5000.
 
-> **Note:** in the current `backend.py`, condition assignment is pinned to `open_positive` and the balanced random assignment is commented out (see `assign_condition`). Restore the `random.choice(underrepresented)` line before running a new multi-condition study.
 
 ## IRIS v2
 
